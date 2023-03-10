@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ice Cream Cafe Website</title>
-    <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/628497bfc848a40022c2e3dc/6299b64bfa542500238435df_optimized" sizes="96x96">
+    <link rel="shortcut icon" type="image/png" href="img/header/shortcut-icon.png" sizes="96x96">
 </head>
 
 <body>
 
 
-    <!-- Семенишин Павло -->
+    <!--Pavlo Semenyshyn -->
     <!-- Lisnychuk Arsen -->
     <!-- Turkevych Vitalii -->
     <!-- Olkhovyk Anastasiia -->
@@ -20,16 +20,22 @@
     <!-- Вівчаренко Михайло -->
     <!--Михайло Попович-->
 
-<!-- Olkhovyk Anastasiia -->
+    <!-- Olkhovyk Anastasiia -->
     <header class="header">
         <nav class="header__nav">
-            <a href="#" class="header__nav-item">About us</a>
-            <a href="#" class="header__nav-item">Menu</a>
-            <a href="#" class="header__nav-item">Special</a>
-            <img width="129" src="img/header/snowman-logo.svg" alt="Mr. Snowman Logo">
-            <a href="#Ingredients" class="header__nav-item">Ingredients</a>
-            <a href="#" class="header__nav-item">Blog</a>
-            <a href="#" class="header__nav-item">Contacts</a>
+            <div class="header__nav-left">
+                <a href="#" class="header__nav-item">About us</a>
+                <a href="#" class="header__nav-item">Menu</a>
+                <a href="#" class="header__nav-item">Special</a>
+            </div>
+            <div class="header__nav-image">
+                <img width="129" src="img/header/snowman-logo.svg" alt="Mr. Snowman Logo">
+            </div>
+            <div class="header__nav-right">
+                <a href="#ingredients" class="header__nav-item">Ingredients</a>
+                <a href="#our-blog" class="header__nav-item">Blog</a>
+                <a href="#" class="header__nav-item">Contacts</a>
+            </div>
         </nav>
     </header>
     <main>
@@ -43,14 +49,11 @@
                 <a href="#" class="button-link">About Cafe</a>
             </div>
             <div class="main-page__our-menu-button">
-                <a href="#our-menu" class="button-link">Our Menu</a>
+                <a href="#menu" class="button-link">Our Menu</a>
             </div>
         </section>
 
-
-
-
-        <!-- Pavlo  Semenyshyn-->
+        <!-- Pavlo Semenyshyn-->
         <section class="overview-menu">
             <div class="overview-desserts">
                 <h3>Desserts</h3>
@@ -81,11 +84,7 @@
             </div>
         </section>
 
-
-
-
         <!-- Tastes Turkevych Vitalii -->
-
         <section class="tastes">
             <div class="tastes__text">
                 <h2 class="text__title">Ice cream tastes</h2>
@@ -142,13 +141,16 @@
     
             </section>
             
+
+       
+
         <!-- Menu Arsen Lisnychuk -->
-        <section class="menu" id="our-menu">
-            <header class="menu__header header">
+        <section class="menu" id="menu">
+            <div class="menu__header header">
                 <h2 class="header__title">Our Menu</h2>
                 <p class="header__sub-title">Featured Desserts & Treats</p>
                 <p class="header__text">Welcome to the sweet tooth paradise!</p>
-            </header>
+            </div>
             <div class="menu__tabs">
                 <div class="menu__tabs-nav tabs-nav">
                     <div class="tabs-nav__item">Desserts</div>
@@ -249,11 +251,13 @@
                             <p class="cards__card-name">Mango Shake / <span class="price">$8</span></p>
                         </div>
                         <div class="cards__card">
-                            <img src="img/menu/drinks/orange-shake.png" alt="Orange Shake image" class="cards__card-img">
+                            <img src="img/menu/drinks/orange-shake.png" alt="Orange Shake image"
+                                class="cards__card-img">
                             <p class="cards__card-name">Orange Shake / <span class="price">$9</span></p>
                         </div>
                         <div class="cards__card">
-                            <img src="img/menu/drinks/banana-shake.png" alt="Banana Shake image" class="cards__card-img">
+                            <img src="img/menu/drinks/banana-shake.png" alt="Banana Shake image"
+                                class="cards__card-img">
                             <p class="cards__card-name">Banana Shake / <span class="price">$8</span></p>
                         </div>
                         <div class="cards__card">
@@ -264,43 +268,42 @@
                 </div>
             </div>
         </section>
+
         <!-- Reznik Anastasiia -->
         <section class="about-us" id="about-us">
-                <h2 class="about-us__title">About Us</h2>
-                <p class="about-us__sub-title">Our Story</p>
-                <p class="about-us__text">Our mission is to offer the best experience and the tastiest desserts to our clients.</p>
-                <p class="about-us__text">We are Mr. Snowman, a small yet cozy NY cafe network. We have been handcrafting the most delicious 
-                        ice cream since 1999, and these days, our menu is more varied than ever before. Come to us to enjoy 
-                        various ice cream flavors and try our seasonal and holiday desserts and drinks.</p>
-             <div class="about-us__cards cards">
+            <h2 class="about-us__title">About Us</h2>
+            <p class="about-us__sub-title">Our Story</p>
+            <p class="about-us__text">Our mission is to offer the best experience and the tastiest desserts to our
+                clients.</p>
+            <p class="about-us__text">We are Mr. Snowman, a small yet cozy NY cafe network. We have been handcrafting
+                the most delicious
+                ice cream since 1999, and these days, our menu is more varied than ever before. Come to us to enjoy
+                various ice cream flavors and try our seasonal and holiday desserts and drinks.</p>
+            <div class="about-us__cards cards">
                 <div class="cards__experience">
-                    <img class="cards__images" src="img/shop-logo.svg" alt="Shop Logo">
+                    <img class="cards__images" src="img/about-us/shop-logo.svg" alt="Shop Logo">
                     <h3 class="cards__title">20+</h3>
                     <p class="cards__text">Years of experience</p>
                 </div>
                 <div class="cards__experience">
-                    <img class="cards__images" src="img/clerk.svg" alt="Clerk Logo">
+                    <img class="cards__images" src="img/about-us/clerk.svg" alt="Clerk Logo">
                     <h3 class="cards__title">25</h3>
                     <p class="cards__text">Professional ice cream makers</p>
                 </div>
                 <div class="cards__experience">
-                    <img class="cards__images" src="img/ice-cream-logo.svg" alt="Ice Cream Logo">
+                    <img class="cards__images" src="img/about-us/ice-cream-logo.svg" alt="Ice Cream Logo">
                     <h3 class="cards__title">18+</h3>
                     <p class="cards__text">Ice cream shops in New York</p>
                 </div>
                 <div class="cards__experience">
-                    <img class="cards__images" src="img/tastes-logo.svg" alt="Tastes Logo">
+                    <img class="cards__images" src="img/about-us/tastes-logo.svg" alt="Tastes Logo">
                     <h3 class="cards__title">50</h3>
                     <p class="cards__text">Great tastes of ice cream</p>
                 </div>
-             </div>
-
-        
-        
-
+            </div>
+        </section>
 
         <!-- Mykhailo Popovych-->
-
         <section class="blog" id="our-blog">
             <div class="blog__text">
                 <h2 class="blog__title">Blog</h2>
@@ -339,9 +342,60 @@
             </div>
         </section>
     </main>
-    <footer>
 
+    <footer>
+        <!-- Pavlo Semenyshyn -->
+        <div class="footer">
+            <div class="footer__welcome">
+                <img class="footer__mr-showman" src="img/footer/mr-snow-photo.svg" alt="footer__logo">
+                <p>Welcome to the sweetest place in our city! We offer handcrafted ice cream, desserts, and drinks.</p>
+                <div class="footer__social__links">
+                    <a href="#" class="facebook__link">
+                        <img src="#" alt="facebook">
+                    </a>
+                    <a href="#" class="instagram__link">
+                        <img src="#" alt="instagram">
+                    </a>
+                    <a href="#" class="twitter__link">
+                        <img src="#" alt="twitter">
+                    </a>
+                    <a href="#" class="youtube__link">
+                        <img src="#" alt="youtube">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__navigation nav">
+                <h3>Navigation</h3>
+
+                <p><a href="#" class="nav__about-us">About us</a> </p>
+                <p><a href="#" class="nav__menu">Menu</a> </p>
+                <p><a href="#" class="nav__spec">Special</a></p>
+                <p><a href="#" class="nav__ingredients">Ingredients</a></p>
+            </div>
+            <div class="footer__support support">
+                <h3>Help & Support</h3>
+                <p><a href="#" class="support__blog">Blog</a></p>
+                <p><a href="#" class="support__term">Terms & Conditions</a></p>
+                <p><a href="#" class="support__help">Help</a></p>
+                <p><a href="#" class="support__contact">Contacts</a></p>
+            </div>
+            <div class="footer__schedule-booking">
+                <h3 class="schedule">Opening Hours</h3>
+                <p class="schedule">Mon – Thu: 10:00 AM – 11 PM</p>
+                <p class="schedule__weekend">
+                    Sat - Sun : 11:00 AM – 11 PM
+                </p>
+                <h3 class="book">Book a Table</h3>
+                <p class="book__number">+1 (234) 567 89 00</p>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__footer">
+                <p> ©Created by Team №4</p>
+                <p>All rights Reserved</p>
+            </div>
+        </div>
     </footer>
 </body>
+
 
 </html>
