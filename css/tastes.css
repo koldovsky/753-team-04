@@ -21,7 +21,7 @@
 .text__we-have{
     color: #e1dde8;
     font-size: 20px;
-    font-family: Source Sans 3;
+    font-family: Source Sans ;
 }
 .tastes__cards{
     margin-top: 40px;
@@ -51,13 +51,13 @@
     color: white;
 }
 .ice-cream__description{
-    font-family: Source Sans 3;
+    font-family: Source Sans ;
     font-size: 18px;
     font-style: italic;
     color: #a6a6a6;
 }
 .ice-cream__price{
-    font-family: Source Sans 3;
+    font-family: Source Sans ;
     font-size: 21px;
     color: #b9b1c5;
 }
