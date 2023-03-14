@@ -8,6 +8,31 @@
     box-sizing: border-box;
 }
 
+:root {
+    --brand-color: #32264b;
+    --main-page-background-color: #493b5f;
+    --title-color: #fff;
+    --subtitle-color: #e1dde8;
+    --text-color: #b9b1c5;
+    --button-additional-color: #ffc452;
+    --button-text-color: #fff;
+    --button-additional-color: #ffc452;
+    --price-color: #ffc452; 
+    --footer-additional-color: #ffc452;
+    --about-us-background-color: #b87390;
+    --about-us-main-color: #a55376;
+    --about-us-subtitle-color: #f0f0f0;
+    --about-us-texr-color: #e0dddd;
+    --menu-background-color: #6382a7;
+    --menu-main-color: #537398;
+    --menu-subtitle-color: #ececf2;
+    --menu-text-color: #c3c4cE;
+    --contacts-background-color: #f8b83d;
+    --cotact-us-main-color: #ffc452;
+    --contact-us-text-color: #fff;
+}
+
 img {
     display: block;
+    width: 100%;
 }
