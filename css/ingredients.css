@@ -1,0 +1,78 @@
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-page-background-color);
+    background-size: cover;
+    min-width: 320px;
+    
+}
+
+.ingredients__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.ingredients__content {
+    text-align: left;
+    margin: 20px;
+    color: #fff;
+}
+
+.ingredients__title {
+    font-family: Leckerli One;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 14px;
+    padding-top: 23px;
+    padding-bottom: 12px;
+
+}
+
+
+
+.ingredients__subtitle {
+    font-size: 2.125rem;
+    font-weight: 400;
+    font-family: Dangrek;
+    letter-spacing: normal;
+    /* line-height: 14px; */
+    padding-bottom: 16px;
+}
+
+.ingredients__text {
+    font-family: Source Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    /* line-height: 14px; */
+    
+    color: var(--text-color);
+    padding-bottom: 23px;
+}
+
+
+.ingredients__listing {
+    list-style-image: url(../img/ingredients/listing-image.svg); 
+    margin-left: 15px;
+}
+
+.ingredients__list {
+    font-family: Source Sans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 17px;
+    
+}
+
+.ingredients__main-text {
+    font-family: Source Sans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgb(185, 177, 197);
+    
+}
+
