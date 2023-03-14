@@ -17,6 +17,7 @@
     --button-additional-color: #ffc452;
     --button-text-color: #fff;
     --button-additional-color: #ffc452;
+    --button-hover: #6D3D61;
     --price-color: #ffc452; 
     --footer-additional-color: #ffc452;
     --about-us-background-color: #b87390;
@@ -35,4 +36,9 @@
 img {
     display: block;
     width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
