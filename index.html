@@ -28,10 +28,8 @@
                 <a href="#" class="header__nav-item">Contacts</a>
             </div>
         </nav>
-    </header>
-    <main>
         <section class="main-page">
-            <h1 class="main-page__title"><span>Welcome to</span>
+            <h1 class="main-page__title"><span>Welcome to</span><br>
                 Mr. Snowman Cafe
             </h1>
             <p class="main-page__sub-title">Handcrafting the most delicious ice cream since 1999.
@@ -39,39 +37,32 @@
             <div class="main-page__about-cafe-button">
                 <a href="#" class="button-link">About Cafe</a>
             </div>
-            <div class="main-page__our-menu-button">
-                <a href="#menu" class="button-link">Our Menu</a>
+            <div class="main-page__our-menu-button blog__btn">
+                <a href="#menu" class="btn__text button-link">Our Menu</a>
             </div>
         </section>
-
+    </header>
+    <main>
         <!-- Pavlo Semenyshyn-->
         <section class="overview-menu">
             <div class="overview-desserts">
                 <h3>Desserts</h3>
-                <form action="#">
-                    <button class="dessert-button">
-                        View Menu
-                    </button>
-                </form>
-
+                <div class="overview-desserts__button">
+                    <a href="#menu" class="button-link__desserts"> View Menu</a>
+                </div>
             </div>
             <div class="milk-shakes">
                 <h3>Milk Shakes</h3>
-                <form action="#">
-                    <button class="shakes-button">
-                        View Menu
-                    </button>
-                </form>
-
+                <div class="overview-milk-shakes__button">
+                    <a href="#menu" class="button-link__shakes"> View Menu</a>
+                </div>
             </div>
 
             <div class="ice-cream">
                 <h3>Ice Cream</h3>
-                <form action="#">
-                    <button class="ice-cream">
-                        View Menu
-                    </button>
-                </form>
+                <div class="overview-ice-cream__button">
+                    <a href="#menu" class="button-link__ice-cream"> View Menu</a>
+                </div>
             </div>
         </section>
 
@@ -82,12 +73,7 @@
                 <p class="text__sub-title">Select Your Favorite Taste</p>
                 <p class="text__we-have">From strawberry to coconut, we have them all!</p>
             </div>
-
-
             <div class="tastes__cards">
-                <div class="cards__button-arrow">
-                    <button class="button-arrow__button"></button>
-                </div>
                 <div class="card__ice-cream">
                     <img class="ice-cream__img" src="img/tastes/strawberry-ice-cream.png" alt="strawberry ice cream">
                     <h3 class="ice-cream__name">Strawberry Gem</h3>
@@ -118,9 +104,6 @@
                     <p class="ice-cream__description">cream nutty flavor</p>
                     <p class="ice-cream__price"><span class="price__numbers">$ 5</span> / ball</p>
                 </div>
-                <div class="cards__button-arrow">
-                    <button class="button-arrow__button"></button>
-                </div>
             </div>
             <a class="tastes__button" href="https://93qs8.weblium.site/menu">
                 <div class="button__text-style">Show Me More</div>
@@ -129,27 +112,33 @@
 
         <!-- Вівчаренко Михайло -->
         <section id="ingredients" class="ingredients">
-            <div class="ingredients__ice-cream">
-                <img class="ingredients__image" src="img/ingredients/ice-cream-ingredients.png"
-                    alt="ice cream ingredients">
+
+            <div class="ingredients__items">
+                <div class="ingredients__ice-cream">
+                    <img class="ingredients__image" src="img/ingredients/ice-cream-ingredients.png"
+                        alt="ice cream ingredients">
+                </div>
+
+                <div class="ingredients__content">
+                    <h2 class="ingredients__title">Ingredients</h2>
+                    <p class="ingredients__subtitle">100% Organic and Natural</p>
+                    <p class="ingredients__text">We use only natural ingredients in our ice cream and desserts.</p>
+
+                    <ul class="ingredients__listing">
+                        <li class="ingredients__list"> Farm milk from local households;</li>
+                        <li class="ingredients__list"> Berry and fruit pieces and whole fruit;</li>
+                        <li class="ingredients__list"> No chemical flavors or sweeteners.</li>
+                    </ul>
+
+                    <p class="ingredients__main-text">The recipe for good ice cream is simple: milk, cream, and fruit.
+                        And,
+                        of
+                        course, lots of love! We use traditional recipes and state-of-the-art
+                        technology to handcraft the most delicious ice cream in New York!</p>
+                </div>
+
             </div>
 
-            <div class="ingredients__content">
-                <h2 class="ingredients__title">Ingredients</h2>
-                <p class="ingredients__subtitle">100% Organic and Natural</p>
-                <p class="ingredients__text">We use only natural ingredients in our ice cream and desserts.</p>
-
-                <ul class="ingredients__listing">
-                    <li class="ingredients__list"> Farm milk from local households;</li>
-                    <li class="ingredients__list"> Berry and fruit pieces and whole fruit;</li>
-                    <li class="ingredients__list"> No chemical flavors or sweeteners.</li>
-                </ul>
-
-                <p class="ingredients__main-text">The recipe for good ice cream is simple: milk, cream, and fruit. And,
-                    of
-                    course, lots of love! We use traditional recipes and state-of-the-art
-                    technology to handcraft the most delicious ice cream in New York!</p>
-            </div>
         </section>
 
 
@@ -326,7 +315,8 @@
                     <div class="blog__article">
                         <img src="img/blog/ice-cream-balls.png" alt="Tasty ice cream">
                         <h3 class="blog__article-title">-15% Discount on 10 Tastes!</h3>
-                        <p class="blog__article-text">Hurry up to use your discount! We offer special prices on top spring
+                        <p class="blog__article-text">Hurry up to use your discount! We offer special prices on top
+                            spring
                             tastes until 10 june</p>
                         <div class="blog__btn btn">
                             <a class="btn__text" href="#">Learn More</a>
@@ -335,7 +325,8 @@
                     <div class="blog__article">
                         <img src="img/blog/ice-cream-enjoy.png" alt="People enjoing ice cream">
                         <h3 class="blog__article-title">The History of Ice Cream</h3>
-                        <p class="blog__article-text">Many people know that the original ice cream comes from Italy. Here is
+                        <p class="blog__article-text">Many people know that the original ice cream comes from Italy.
+                            Here is
                             the whole story...</p>
                         <div class="blog__btn btn">
                             <a class="btn__text" href="#">Learn More</a>
@@ -344,7 +335,8 @@
                     <div class="blog__article">
                         <img src="img/blog/ice-cream-composition.png" alt="Ice cream composition">
                         <h3 class="blog__article-title">Celebrate Birthdays with us!</h3>
-                        <p class="blog__article-text">Mr. Snowman's Birthday Parties are great for kids of all ages. We have
+                        <p class="blog__article-text">Mr. Snowman's Birthday Parties are great for kids of all ages. We
+                            have
                             lots of sweet threats and fun.</p>
                         <div class="blog__btn btn">
                             <a class="btn__text" href="#">Learn More</a>
