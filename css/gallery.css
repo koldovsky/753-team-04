@@ -1,0 +1,29 @@
+/*.gallery {
+    background-color: var(--main-page-background-color);
+    padding: 60px 24px;
+}
+
+.gallery__header {
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 50px;
+}
+
+.gallery__title {
+    font-family: Leckerli One, cursive;
+    font-size: 1.06rem;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.gallery__subtitle {
+
+}
+
+.gallery__text {
+
+}
+
+.gallery__photos {
+
+} */
