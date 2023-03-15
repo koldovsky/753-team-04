@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #493b5f;
+    background-color: var(--main-page-background-color);
 }
 .tastes__text{
     text-align: center;
-    color: white;
+    color: var(--title-color);
 }
 .text__title{
     font-family: Leckerli One;
@@ -19,7 +19,7 @@
     font-family: Dangrek;
 }
 .text__we-have{
-    color: #e1dde8;
+    color: var(--subtitle-color);
     font-size: 20px;
     font-family: Source Sans ;
 }
@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .card__ice-cream{
@@ -48,7 +49,7 @@
 .ice-cream__name{
     font-family: Dangrek;
     font-size: 26px;
-    color: white;
+    color: var(--title-color);
 }
 .ice-cream__description{
     font-family: Source Sans ;
@@ -59,10 +60,10 @@
 .ice-cream__price{
     font-family: Source Sans ;
     font-size: 21px;
-    color: #b9b1c5;
+    color: var(--text-color);
 }
 .price__numbers{
-    color: #ffc452;
+    color: var(--price-color);
 }
 .button-arrow__button{
     background: none;
@@ -76,7 +77,7 @@
     margin-top: 50px;
     width: 150px;
     height: 50px;
-    background-color: #ffc452;
+    background-color: var(--button-additional-color);
     border-radius: 27px;  
     display: flex;
     justify-content: center;
@@ -85,4 +86,8 @@
     text-decoration: none;
     font-family: Source Sans Pro;
     color: white;
+}
+.tastes__button:hover{
+    background: rgba(255,255,255,0.3);
+	transition: all 2s ease;
 }
