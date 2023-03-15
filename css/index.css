@@ -1,6 +1,12 @@
 @import "global.css";
+@import "header.css";
 @import "tastes.css";
+<<<<<<< HEAD
 @import "ingredients.css";
 @import "gallery.css"; 
 @import "blog.css";
 @import "header.css";
+=======
+@import "ingredients.css"; 
+@import "blog.css";
+>>>>>>> a36d25bcd3010b82620a42609f30ddfa0eec5a99

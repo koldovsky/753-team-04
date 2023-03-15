@@ -28,7 +28,17 @@
 .header__nav-right{
     display: none;
 }
-.main-page__our-menu-button{
+.main-page__our-menu-button, .main-page__about-cafe-button {
     width:9rem;
     text-align: center;
+    margin:10px;
 }
+.main-page__about-cafe-button{
+    background-color: var(--button-additional-color);
+    padding: 15px 30px;
+    width:9.625rem;
+    height: 50px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
