@@ -31,6 +31,7 @@
     --contacts-text-color: #fff;
     --tastes-description-color: #a6a6a6;
     --tastes-carousel-arrows-color: #000;
+    --btn-secondary-hover-bg-color: #eab754;
 }
 
 img {
@@ -85,6 +86,10 @@ a {
     align-items: center;
     cursor: pointer;
     text-decoration: none;
+}
+
+.mask-yellow-button__block:hover {
+    background-color: var(--btn-secondary-hover-bg-color);
 }
 
 .block__text-style {
