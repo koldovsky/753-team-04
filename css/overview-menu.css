@@ -1,0 +1,112 @@
+.overview-menu {
+	font-family: Dangrek, cursive;
+	background-color: var(--main-page-background-color);
+	min-width: 320px;
+	min-height: 761px;
+	padding: 65px 0px 65px;
+}
+.overview-menu__block {
+	box-sizing: border-box;
+	border-radius: 5px;
+	min-width: 272px;
+	min-height: 178px;
+	margin: 0px 25px 50px 25px;
+	background: url(/img/overview-menu-photo/dessert_photo.png) 52.6% 32.25% / cover no-repeat;
+}
+.overview-desserts {
+	text-align: center;
+}
+.overview-desserts__text {
+	position: relative;
+	top: 25px;
+	font-size: 30px;
+	color: #fff;
+}
+.overview-desserts__button {
+	box-sizing: border-box;
+	border-radius: 27px;
+	width: 135px;
+	height: 50px;
+	background-color: var(--brand-color);
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 55px;
+	left: 65px;
+}
+.button-link__desserts {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+.overview-menu__block-shakes {
+	box-sizing: border-box;
+	border-radius: 5px;
+	min-width: 272px;
+	min-height: 178px;
+	margin: 0px 25px 50px 25px;
+	background: url(/img/overview-menu-photo/milk_shakes.png) 50.1% 62.75% / cover no-repeat;
+}
+.milk-shakes {
+	text-align: center;
+}
+.overview-menu__shakes-text {
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	top: 20px;
+}
+.overview-milk-shakes__button {
+	box-sizing: border-box;
+	border-radius: 27px;
+	width: 135px;
+	height: 50px;
+	background-color: #a55376;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 65px;
+	left: 68px;
+}
+.button-link__shakes {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+.overview-menu__ice-cream {
+	box-sizing: border-box;
+	border-radius: 5px;
+	min-width: 272px;
+	min-height: 178px;
+	margin: 0px 25px 50px 25px;
+	background: url(/img/overview-menu-photo/ice_cream.png) 58.23% 61.54% / cover no-repeat;
+}
+.ice-cream {
+	text-align: center;
+}
+.overview-menu__ice-cream-text {
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	top: 20px;
+}
+.overview-ice-cream__button {
+	box-sizing: border-box;
+	border-radius: 27px;
+	width: 135px;
+	height: 50px;
+	background-color: var(--brand-color);
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 45px;
+	left: 65px;
+}
+.button-link__ice-cream {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
