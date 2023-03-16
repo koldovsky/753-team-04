@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@400;500&family=Source+Sans+Pro:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
 * {
     margin: 0;
@@ -31,6 +29,8 @@
     --contacts-background-color: #f8b83d;
     --cotacts-main-color: #ffc452;
     --contacts-text-color: #fff;
+    --tastes-description-color: #a6a6a6;
+    --tastes-carousel-arrows-color: #000;
 }
 
 img {
