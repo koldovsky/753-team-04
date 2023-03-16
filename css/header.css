@@ -1,60 +1,65 @@
-.header{
+.header {
     background: url(../img/header/header-background.png);
     background-size: cover;
     background-position: center;
-    padding:1.5rem;
+    padding: 1.5rem;
 }
-.main-page__title{
+
+.main-page__title {
     font-family: 'Dangrek', cursive;
     font-size: 3.625rem;
     color: var(--title-color);
-    line-height:4rem;
+    line-height: 4rem;
 }
-.main-page__title span{
+
+.main-page__title span {
     font-family: 'Leckerli One', cursive;
     font-size: 0.875rem;
 }
-.main-page__sub-title{
+
+.main-page__sub-title {
     font-family: "Source Sans 3", sans-serif;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     color: var(--subtitle-color);
+    letter-spacing: 0.4px;
 }
-.header__nav-image{
-    width:129px;
+
+.header__nav-image {
+    width: 129px;
 }
-.header__nav-left{
-    display:none;
-}
-.header__nav-right{
+
+.header__nav-left {
     display: none;
 }
-.main-page__our-menu-button, .main-page__about-cafe-button {
-    width:9rem;
+
+.header__nav-right {
+    display: none;
+}
+
+.main-page__our-menu-button,
+header .mask-yellow-button__block {
+    height: 3.7rem;
     text-align: center;
-    margin:10px;
+    margin: 10px;
+    border-radius: 32px;
 }
-.main-page__about-cafe-button{
-    background-color: var(--button-additional-color);
-    padding: 15px 30px;
-    width:9.625rem;
-    height: 50px;
-    border-radius: 27px;
-    cursor: pointer;
-}
-.nav-link{
+
+.nav-link {
     font-family: "Source Sans 3", sans-serif;
-    font-size:1.0625rem;
+    font-size: 1.0625rem;
     color: var(--subtitle-color);
 }
-.animated-icon{
+
+.animated-icon {
     width: 25px;
     height: 20px;
     position: relative;
     margin: 0px;
     cursor: pointer;
-  }
-.animated-icon span{
-    background:var(--title-color);
+}
+
+.animated-icon span {
+    background: var(--title-color);
     display: block;
     position: absolute;
     height: 2px;
@@ -62,20 +67,27 @@
     border-radius: 9px;
     opacity: 1;
     left: 0;
-  }
+}
 
 .animated-icon span:nth-child(1) {
     top: 0px;
-  }
-  
-.animated-icon span:nth-child(2), .animated-icon span:nth-child(3) {
+}
+
+.animated-icon span:nth-child(2),
+.animated-icon span:nth-child(3) {
     top: 7px;
-  }
-  
+}
+
 .animated-icon span:nth-child(4) {
     top: 14px;
-  }
+}
+
 .navbar-toggler {
     border: none !important;
     box-shadow: none !important;
- }
+}
+
+.header a {
+    letter-spacing: 0.495px;
+    font-size: 1.03125rem;
+}

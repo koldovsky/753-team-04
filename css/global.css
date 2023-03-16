@@ -16,7 +16,7 @@
     --button-text-color: #fff;
     --button-additional-color: #ffc452;
     --button-hover: #6D3D61;
-    --price-color: #ffc452; 
+    --price-color: #ffc452;
     --footer-additional-color: #ffc452;
     --about-us-background-color: #b87390;
     --about-us-main-color: #a55376;
@@ -43,7 +43,13 @@ img {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-btn {
+    display: flex;
+    justify-content: center;
     background-color: var(--brand-color);
     padding: 15px 30px;
     width: 140px;
@@ -62,6 +68,7 @@ img {
     color: var(--button-text-color);
     font-family: "Source Sans Pro";
     font-size: 0.94rem;
+    align-self: center;
 }
 
 .mask-yellow-button {
@@ -72,7 +79,7 @@ img {
     width: 160px;
     height: 50px;
     background-color: var(--button-additional-color);
-    border-radius: 27px;  
+    border-radius: 27px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +94,7 @@ img {
 }
 
 .mask-yellow-button:hover {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     opacity: 0.9;
     transition: 0.2s;
 }
