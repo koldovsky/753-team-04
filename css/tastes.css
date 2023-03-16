@@ -88,6 +88,10 @@
     color: var(--price-color);
 }
 
+.slide {
+    max-width: 270px;
+}
+
 .carousel-control-next {
     margin: auto;
     width: 24px;
