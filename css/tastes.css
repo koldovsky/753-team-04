@@ -1,30 +1,30 @@
-.tastes{
+.tastes {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--main-page-background-color);
 }
-.tastes__text{
+.tastes__text {
     text-align: center;
     color: var(--title-color);
 }
-.text__title{
+.text__title {
     font-family: Leckerli One;
     font-size: 21px;
 }
-.text__sub-title{
+.text__sub-title {
     font-size: 48px;
     margin: 10px 0 10px 0;
     font-weight: bold;
     font-family: Dangrek;
 }
-.text__we-have{
+.text__we-have {
     color: var(--subtitle-color);
     font-size: 20px;
     font-family: Source Sans ;
 }
-.tastes__cards{
-    margin-top: 40px;
+.tastes__cards {
+    margin: 40px 0 50px 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -32,7 +32,7 @@
     flex-wrap: wrap;
     
 }
-.card__ice-cream{
+.card__ice-cream {
     width: 263px;
     height: 365px;
     display: flex;
@@ -42,30 +42,30 @@
     background-color: #32264b;
     border-radius: 10px;
 }
-.ice-cream__img{
+.ice-cream__img {
     width: 203px;
     height: 157px;
 }
-.ice-cream__name{
+.ice-cream__name {
     font-family: Dangrek;
     font-size: 26px;
     color: var(--title-color);
 }
-.ice-cream__description{
+.ice-cream__description {
     font-family: Source Sans ;
     font-size: 18px;
     font-style: italic;
     color: #a6a6a6;
 }
-.ice-cream__price{
+.ice-cream__price {
     font-family: Source Sans ;
     font-size: 21px;
     color: var(--text-color);
 }
-.price__numbers{
+.price__numbers {
     color: var(--price-color);
 }
-.button-arrow__button{
+.button-arrow__button {
     background: none;
     border: none;
     width: 30px;
@@ -73,9 +73,13 @@
     font-size: 40px;
     color: #a6a6a6;
 }
-.tastes__button{
-    margin-top: 50px;
-    width: 150px;
+
+.mask-yellow-button {
+    border-radius: 27px;
+}
+
+.mask-yellow-button__block {
+    width: 160px;
     height: 50px;
     background-color: var(--button-additional-color);
     border-radius: 27px;  
@@ -84,10 +88,18 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-family: Source Sans Pro;
-    color: white;
 }
-.tastes__button:hover{
-    background: rgba(255,255,255,0.3);
-	transition: all 2s ease;
+
+.block__text-style {
+    color: var(--button-text-color);
+    font-size: 15px;
+    font-family: "Source Sans Pro";
 }
+
+.mask-yellow-button:hover {
+    background-color: rgba(255,255,255,0.3);
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+
