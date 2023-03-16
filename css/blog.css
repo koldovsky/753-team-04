@@ -46,6 +46,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
+    max-width: 1148px;
 }
 
 .blog__acticles-overview img {
