@@ -82,6 +82,6 @@
 
 @media (min-width:770px) {
     .gallery__photos {
-        flex-direction: row;
+         flex-direction: row;
     }
 }
