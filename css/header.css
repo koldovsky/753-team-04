@@ -6,7 +6,7 @@
     padding-top: 1rem;
 }
 
-.main-page{
+.main-page {
     padding-top: 7rem;
 }
 
@@ -43,11 +43,25 @@
     display: none;
 }
 
+.main-page__btn-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 367px) {
+    .main-page__btn-flex {
+        flex-direction: row;
+    }
+
+    .main-page__btn-flex div:nth-child(1) {
+        margin-right: 10px;
+    }
+}
+
 .main-page__our-menu-button,
 header .mask-yellow-button__block {
     height: 3.7rem;
     text-align: center;
-    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 32px;
 }
@@ -99,6 +113,7 @@ header .mask-yellow-button__block {
     letter-spacing: 0.495px;
     font-size: 1.03125rem;
 }
-.navbar{
-    text-align:center;
+
+.navbar {
+    text-align: center;
 }
