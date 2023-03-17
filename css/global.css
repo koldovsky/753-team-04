@@ -32,6 +32,7 @@
     --tastes-description-color: #a6a6a6;
     --tastes-carousel-arrows-color: #000;
     --btn-secondary-hover-bg-color: #eab754;
+    --mask-color: rgba(255, 255, 255, 0.3);
 }
 
 img {
@@ -72,11 +73,11 @@ a {
     align-self: center;
 }
 
-.mask-yellow-button {
+.mask-additional-button {
     border-radius: 27px;
 }
 
-.mask-yellow-button__block {
+.mask-additional-button__block {
     width: 160px;
     height: 50px;
     background-color: var(--button-additional-color);
@@ -88,7 +89,7 @@ a {
     text-decoration: none;
 }
 
-.mask-yellow-button__block:hover {
+.mask-additional-button__block:hover {
     background-color: var(--btn-secondary-hover-bg-color);
 }
 
@@ -98,8 +99,8 @@ a {
     font-family: "Source Sans Pro";
 }
 
-.mask-yellow-button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+.mask-additional-button:hover {
+    background-color: var(--mask-color);
     opacity: 0.9;
     transition: 0.2s;
 }
