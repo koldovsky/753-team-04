@@ -122,11 +122,11 @@
     margin-right: 2px;
 }
 
-.mask-yellow-button {
+.mask-additional-button {
     border-radius: 27px;
 }
 
-.mask-yellow-button__block {
+.mask-additional-button__block {
     width: 160px;
     height: 50px;
     background-color: var(--button-additional-color);
@@ -144,8 +144,8 @@
     font-family: "Source Sans Pro";
 }
 
-.mask-yellow-button:hover {
-    background-color: rgba(255,255,255,0.3);
+.mask-additional-button:hover {
+    background-color: var(--mask-color);
     opacity: 0.9;
     transition: 0.5s;
 }
