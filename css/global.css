@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@400;500&family=Source+Sans+Pro:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
 * {
     margin: 0;
@@ -18,7 +16,7 @@
     --button-text-color: #fff;
     --button-additional-color: #ffc452;
     --button-hover: #6D3D61;
-    --price-color: #ffc452; 
+    --price-color: #ffc452;
     --footer-additional-color: #ffc452;
     --about-us-background-color: #b87390;
     --about-us-main-color: #a55376;
@@ -31,6 +29,9 @@
     --contacts-background-color: #f8b83d;
     --cotacts-main-color: #ffc452;
     --contacts-text-color: #fff;
+    --tastes-description-color: #a6a6a6;
+    --tastes-carousel-arrows-color: #000;
+    --btn-secondary-hover-bg-color: #eab754;
 }
 
 img {
@@ -41,4 +42,64 @@ img {
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    background-color: var(--brand-color);
+    padding: 15px 30px;
+    width: 140px;
+    height: 50px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background-color: var(--button-hover);
+    transition: 0.2s;
+}
+
+.main-btn__text {
+    text-decoration: none;
+    color: var(--button-text-color);
+    font-family: "Source Sans Pro";
+    font-size: 0.94rem;
+    align-self: center;
+}
+
+.mask-yellow-button {
+    border-radius: 27px;
+}
+
+.mask-yellow-button__block {
+    width: 160px;
+    height: 50px;
+    background-color: var(--button-additional-color);
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.mask-yellow-button__block:hover {
+    background-color: var(--btn-secondary-hover-bg-color);
+}
+
+.block__text-style {
+    color: var(--button-text-color);
+    font-size: 0.94rem;
+    font-family: "Source Sans Pro";
+}
+
+.mask-yellow-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0.9;
+    transition: 0.2s;
 }

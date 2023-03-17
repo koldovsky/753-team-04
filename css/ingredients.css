@@ -7,17 +7,6 @@
     
 }
 
-/* .ingredients__ice-cream {
-    width: 80%;
-    height: 80%;
-    border: 3px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-
-
-} */
-
 .ingredients__image {
     display: block;
     max-width: 669px;
@@ -69,8 +58,8 @@
 
 
 .ingredients__listing {
-    list-style-type: none;
-    list-style-image: url(../img/ingredients/listing-image.svg); 
+    /* list-style-type: none;
+    list-style-image: url(../img/ingredients/listing-image.svg);  */
     
     margin-left: 15px;
     margin-bottom: 10px;
@@ -78,9 +67,9 @@
 }
 
 .ingredients__listing .ingredients__list::marker {
-    
+    /* content: url(../img/ingredients/listing-image.svg); */
     font-size: 15px;
-    color: #b87390;;
+    color: #b87390;
 
 }
 
@@ -89,9 +78,7 @@
     font-size: 1.125rem;
     font-weight: 400;
     color: var(--text-color);
-    padding-bottom: 15px;
-    
-    
+    padding-bottom: 15px; 
 }
 
 .ingredients__main-text {

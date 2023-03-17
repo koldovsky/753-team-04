@@ -7,71 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ice Cream Cafe Website</title>
     <link rel="shortcut icon" type="image/png" href="img/header/shortcut-icon.png" sizes="96x96">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <!-- Olkhovyk Anastasiia -->
     <header class="header">
-        <nav class="header__nav">
-            <div class="header__nav-left">
-                <a href="#" class="header__nav-item">About us</a>
-                <a href="#" class="header__nav-item">Menu</a>
-                <a href="#" class="header__nav-item">Special</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent container">
+            <a class="nav-item nav-link navbar-brand d-block d-lg-none" href="#">
+                <div class="header__nav-image">
+                    <img width="129" src="img/header/snowman-logo.svg" alt="Mr. Snowman Logo">
+                </div>
+            </a>
+            <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
             </div>
-            <div class="header__nav-image">
-                <img width="129" src="img/header/snowman-logo.svg" alt="Mr. Snowman Logo">
-            </div>
-            <div class="header__nav-right">
-                <a href="#ingredients" class="header__nav-item">Ingredients</a>
-                <a href="#blog" class="header__nav-item">Blog</a>
-                <a href="#" class="header__nav-item">Contacts</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav w-100 justify-content-between d-lg-flex">
+                    <div class="w-100 d-lg-flex justify-content-around">
+                        <a class="nav-item nav-link align-self-center" href="#">About us</a>
+                        <a class="nav-item nav-link align-self-center" href="#">Menu</a>
+                        <a class="nav-item nav-link align-self-center" href="#">Special</a>
+                    </div>
+                    <a class="nav-item nav-link w-100 d-lg-flex justify-content-center d-none d-lg-block" href="#">
+                        <div class="header__nav-image">
+                            <img width="129" src="img/header/snowman-logo.svg" alt="Mr. Snowman Logo">
+                        </div>
+                    </a>
+                    <div class="w-100 d-lg-flex justify-content-around">
+                        <a class="nav-item nav-link align-self-center" href="#ingredients">Ingredients</a>
+                        <a class="nav-item nav-link align-self-center" href="#blog">Blog</a>
+                        <a class="nav-item nav-link align-self-center" href="#">Contacts</a>
+                    </div>
+                </div>
             </div>
         </nav>
-    </header>
-    <main>
-        <section class="main-page">
-            <h1 class="main-page__title"><span>Welcome to</span>
+        <section class="main-page container">
+            <h1 class="main-page__title"><span>Welcome to</span><br>
                 Mr. Snowman Cafe
             </h1>
             <p class="main-page__sub-title">Handcrafting the most delicious ice cream since 1999.
             </p>
-            <div class="main-page__about-cafe-button">
-                <a href="#" class="button-link">About Cafe</a>
+            <div class="main-page__about-cafe-button mask-yellow-button__block">
+                <a href="#" class="about-cafe-link block__text-style">About Cafe</a>
             </div>
-            <div class="main-page__our-menu-button">
-                <a href="#menu" class="button-link">Our Menu</a>
+            <div class="main-page__our-menu-button main-btn">
+                <a href="#menu" class="button-link main-btn__text">Our Menu</a>
             </div>
         </section>
-
+    </header>
+    <main>
         <!-- Pavlo Semenyshyn-->
         <section class="overview-menu">
-            <div class="overview-desserts">
-                <h3>Desserts</h3>
-                <form action="#">
-                    <button class="dessert-button">
-                        View Menu
-                    </button>
-                </form>
-
+            <div class="overview-menu__block">
+                <div class="overview-desserts">
+                    <h3 class="overview-desserts__text">Desserts</h3>
+                    <div class="overview-desserts__button">
+                        <a href="#menu" class="button-link__desserts"> View Menu</a>
+                    </div>
+                </div>
             </div>
-            <div class="milk-shakes">
-                <h3>Milk Shakes</h3>
-                <form action="#">
-                    <button class="shakes-button">
-                        View Menu
-                    </button>
-                </form>
-
+            <div class="overview-menu__block-shakes">
+                <div class="milk-shakes">
+                    <h3 class="overview-menu__shakes-text">Milk Shakes</h3>
+                    <div class="overview-milk-shakes__button">
+                        <a href="#menu" class="button-link__shakes"> View Menu</a>
+                    </div>
+                </div>
             </div>
-
-            <div class="ice-cream">
-                <h3>Ice Cream</h3>
-                <form action="#">
-                    <button class="ice-cream">
-                        View Menu
-                    </button>
-                </form>
+            <div class="overview-menu__ice-cream">
+                <div class="ice-cream">
+                    <h3 class="overview-menu__ice-cream-text">Ice Cream</h3>
+                    <div class="overview-ice-cream__button">
+                        <a href="#menu" class="button-link__ice-cream"> View Menu</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -83,7 +96,77 @@
                 <p class="text__we-have">From strawberry to coconut, we have them all!</p>
             </div>
             <div class="tastes__cards">
-                <div class="card__ice-cream">
+
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-border">
+                                <div class="card__ice-cream">
+                                    <img class="ice-cream__img" src="img/tastes/strawberry-ice-cream.png"
+                                        alt="strawberry ice cream">
+                                    <h3 class="ice-cream__name">Strawberry Gem</h3>
+                                    <p class="ice-cream__description">fruity and fresh</p>
+                                    <p class="ice-cream__price"><span class="price__numbers">$5</span> / ball</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-border">
+                                <div class="card__ice-cream">
+                                    <img class="ice-cream__img" src="img/tastes/choco-ice-cream.png"
+                                        alt="choco ice cream">
+                                    <h3 class="ice-cream__name">Choco & Hazelnut</h3>
+                                    <p class="ice-cream__description">rich sweet taste</p>
+                                    <p class="ice-cream__price"><span class="price__numbers">$5 </span> / ball</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-border">
+                                <div class="card__ice-cream">
+                                    <img class="ice-cream__img" src="img/tastes/blueberry-ice-cream.png"
+                                        alt="blueberry ice cream">
+                                    <h3 class="ice-cream__name">Blue Paradise</h3>
+                                    <p class="ice-cream__description">sour and fruity</p>
+                                    <p class="ice-cream__price"><span class="price__numbers">$5</span> / ball</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-border">
+                                <div class="card__ice-cream">
+                                    <img class="ice-cream__img" src="img/tastes/mongo-ice-cream.png"
+                                        alt="mongo ice cream">
+                                    <h3 class="ice-cream__name">Mango Dream§</h3>
+                                    <p class="ice-cream__description">classic tropic taste</p>
+                                    <p class="ice-cream__price"><span class="price__numbers">$5</span> / ball</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-border">
+                                <div class="card__ice-cream">
+                                    <img class="ice-cream__img" src="img/tastes/cream-nutty-flavor.png"
+                                        alt="cream nutty flavor">
+                                    <h3 class="ice-cream__name">Pistachio Heaven</h3>
+                                    <p class="ice-cream__description">cream nutty flavor</p>
+                                    <p class="ice-cream__price"><span class="price__numbers">$5</span> / ball</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- <div class="card__ice-cream">
                     <img class="ice-cream__img" src="img/tastes/strawberry-ice-cream.png" alt="strawberry ice cream">
                     <h3 class="ice-cream__name">Strawberry Gem</h3>
                     <p class="ice-cream__description">fruity and fresh</p>
@@ -112,17 +195,19 @@
                     <h3 class="ice-cream__name">Pistachio Heaven</h3>
                     <p class="ice-cream__description">cream nutty flavor</p>
                     <p class="ice-cream__price"><span class="price__numbers">$ 5</span> / ball</p>
-                </div>
+                </div> -->
             </div>
-            <a class="tastes__button" href="https://93qs8.weblium.site/menu">
-                <div class="button__text-style">Show Me More</div>
-            </a>
+            <div class="mask-yellow-button">
+                <a class="mask-yellow-button__block" href="https://93qs8.weblium.site/menu">
+                    <div class="block__text-style">Show Me More</div>
+                </a>
+            </div>
         </section>
 
         <!-- Вівчаренко Михайло -->
         <section id="ingredients" class="ingredients">
 
-            <div class="ingredients__items container">
+            <div class="ingredients__items">
                 <div class="ingredients__ice-cream">
                     <img class="ingredients__image" src="img/ingredients/ice-cream-ingredients.png"
                         alt="ice cream ingredients">
@@ -313,6 +398,22 @@
         </section>
 
         <!-- Mykhailo Popovych-->
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery__header">
+                    <h2 class="gallery__title">Gallery</h2>
+                    <p class="gallery__subtitle">Our Gallery</p>
+                    <p class="gallery__text">Ice cream and desserts are our real passion!</p>
+                </div>
+                <div class="gallery__photos">
+                    <img src="img/gallery/cafe-workers.png" alt="Cafe workers">
+                    <img src="img/gallery/tasty-ice-cream.png" alt="Client with ice cream">
+                    <img src="img/gallery/assortment.png" alt="Our assortment">
+                    <img src="img/gallery/ready-ice-cream.png" alt="Tasty ice cream">
+                    <img src="img/gallery/ice-cream-making.png" alt="ice cream making">
+                </div>
+            </div>
+        </section>
         <section class="blog" id="blog">
             <div class="container">
                 <div class="blog__header">
@@ -327,8 +428,8 @@
                         <p class="blog__article-text">Hurry up to use your discount! We offer special prices on top
                             spring
                             tastes until 10 june</p>
-                        <div class="blog__btn btn">
-                            <a class="btn__text" href="#">Learn More</a>
+                        <div class="main-btn">
+                            <a class="main-btn__text" href="#">Learn More</a>
                         </div>
                     </div>
                     <div class="blog__article">
@@ -337,8 +438,8 @@
                         <p class="blog__article-text">Many people know that the original ice cream comes from Italy.
                             Here is
                             the whole story...</p>
-                        <div class="blog__btn btn">
-                            <a class="btn__text" href="#">Learn More</a>
+                        <div class="main-btn">
+                            <a class="main-btn__text" href="#">Learn More</a>
                         </div>
                     </div>
                     <div class="blog__article">
@@ -347,8 +448,8 @@
                         <p class="blog__article-text">Mr. Snowman's Birthday Parties are great for kids of all ages. We
                             have
                             lots of sweet threats and fun.</p>
-                        <div class="blog__btn btn">
-                            <a class="btn__text" href="#">Learn More</a>
+                        <div class="main-btn">
+                            <a class="main-btn__text" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -411,7 +512,14 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js "
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV "
+        crossorigin="anonymous"></script>
 </body>
-
 
 </html>
