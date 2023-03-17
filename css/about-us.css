@@ -4,6 +4,7 @@
     align-items: center;
     background-color: var(--about-us-background-color);
     background-size: auto;
+    padding-bottom: 75px;
 }
 
 .about-us__text {
