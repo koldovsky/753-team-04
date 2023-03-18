@@ -6,10 +6,46 @@
     background-color: var(--brand-color);
 }
 
-.card-text {
-    color: #fff; /* should be variable */
+.cards__card>.card-text {
+    color: #fff;
+    /* should be variable */
 }
 
 .price {
     color: var(--menu-price-color);
+}
+
+.menu__tab {
+    border-bottom: 1px solid var(--menu-border-color);
+}
+
+.menu__tab>.nav-item>.nav-link {
+    color: var(--menu-tab-text-color);
+}
+
+.menu__tab>.nav-item>.nav-link.active {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid var(--menu-tab-border-active-color);
+}
+
+@media (min-width: 768px) {
+    .menu__tab {
+        justify-content: center;
+    }
+
+    .menu__tab-content>.tab-pane>.grid__desserts>*,
+    .menu__tab-content>.tab-pane>.grid__ice-creams>*,
+    .menu__tab-content>.tab-pane>.grid__drinks>* {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .menu__tab-content>.tab-pane>.grid__desserts>*,
+    .menu__tab-content>.tab-pane>.grid__ice-creams>*,
+    .menu__tab-content>.tab-pane>.grid__drinks>* {
+        flex: 0 0 25%;
+    }
 }
