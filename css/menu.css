@@ -1,0 +1,15 @@
+.menu {
+    background-color: var(--main-page-background-color);
+}
+
+.cards__card {
+    background-color: var(--brand-color);
+}
+
+.card-text {
+    color: #fff; /* should be variable */
+}
+
+.price {
+    color: var(--menu-price-color);
+}
