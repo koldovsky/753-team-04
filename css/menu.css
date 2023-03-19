@@ -17,10 +17,20 @@
 
 .menu__tab {
     border-bottom: 1px solid var(--menu-border-color);
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+
+.menu__tab>.nav-item {
+    flex: 0 0 auto;
 }
 
 .menu__tab>.nav-item>.nav-link {
     color: var(--menu-tab-text-color);
+}
+
+.menu__tab>.nav-item>.nav-link:hover {
+    border-color: transparent;
 }
 
 .menu__tab>.nav-item>.nav-link.active {
@@ -29,6 +39,7 @@
     color: #fff;
     border-bottom: 2px solid var(--menu-tab-border-active-color);
 }
+
 
 @media (min-width: 768px) {
     .menu__tab {
@@ -43,6 +54,7 @@
 }
 
 @media (min-width: 992px) {
+
     .menu__tab-content>.tab-pane>.grid__desserts>*,
     .menu__tab-content>.tab-pane>.grid__ice-creams>*,
     .menu__tab-content>.tab-pane>.grid__drinks>* {
