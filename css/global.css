@@ -35,8 +35,8 @@
     --contacts-text-color: #fff;
     --tastes-description-color: #a6a6a6;
     --tastes-carousel-arrows-color: #000;
-    --btn-secondary-hover-bg-color: #eab754;
-    --mask-color: rgba(255, 255, 255, 0.3);
+    --button-secondary-hover-bg-color: #eab754;
+    --button-mask-color: rgba(255, 255, 255, 0.3);
 }
 
 img {
