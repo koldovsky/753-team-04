@@ -18,13 +18,6 @@
     width: 129px;
 }
 
-.header__nav-left {
-    display: none;
-}
-
-.header__nav-right {
-    display: none;
-}
 
 .main-page__btn-flex {
     display: flex;

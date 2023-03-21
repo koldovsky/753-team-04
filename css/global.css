@@ -94,7 +94,7 @@ a {
 }
 
 .mask-additional-button__block:hover {
-    background-color: var(--btn-secondary-hover-bg-color);
+    background-color: var(--button-secondary-hover-bg-color);
 }
 
 .block__text-style {
