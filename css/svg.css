@@ -1,0 +1,43 @@
+.footer__social-icons {
+    display: flex;
+    gap: 7px;
+}
+.footer__social-icons a{
+    width:40px;
+    height:40px;
+    color:rgb(255, 196, 82);
+}
+.svgIcon_1J7{
+    max-width:100%;
+    -webkit-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out
+}
+.svgIcon_1J7 .logo_2gS{
+    fill:currentColor
+}
+.svgIcon_1J7 .insta-mask-hover_2Yt,.svgIcon_1J7 .insta-mask-logo-hover_19f{
+    opacity:0
+}
+.outlined_2wD{
+    -webkit-transition:none;
+    -o-transition:none;
+    transition:none
+}
+.outlined_2wD .outer_bDW{
+    color:rgba(0,0,0,0)
+}
+.outlined_2wD .border_2yy,.outlined_2wD .logo_2gS,.outlined_2wD .outer_bDW{
+    fill:currentColor;
+    -webkit-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out
+}
+.outlined_2wD:hover .outer_bDW{
+    color:inherit;
+    fill:currentColor;
+}
+.outlined_2wD:hover .logo_2gS{
+    color:rgba(0,0,0,0);
+    fill:currentColor
+}
