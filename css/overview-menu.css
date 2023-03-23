@@ -15,31 +15,28 @@
 }
 .overview-desserts {
 	text-align: center;
+	margin: 0 auto;
 }
 .overview-desserts__text {
-	position: relative;
-	top: 25px;
-	font-size: 30px;
-	color: #fff;
-}
-.overview-desserts__button {
-	box-sizing: border-box;
-	border-radius: 27px;
-	width: 135px;
-	height: 50px;
-	background-color: var(--brand-color);
 	display: flex;
 	justify-content: center;
 	position: relative;
-	top: 55px;
-	left: 65px;
-}
-.button-link__desserts {
-	color: #fff;
-	text-decoration: none;
-	position: relative;
 	top: 10px;
+	font-size: 30px;
+	color: var(--title-color);
 }
+.overview-desserts .main-btn {
+	margin: 0 auto;
+	display: block;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+	position: relative;
+	top: 60px;
+}
+.main-btn__text {
+}
+
 .overview-menu__block-shakes {
 	box-sizing: border-box;
 	border-radius: 5px;
@@ -50,30 +47,23 @@
 }
 .milk-shakes {
 	text-align: center;
+	margin: 0 auto;
 }
 .overview-menu__shakes-text {
 	font-size: 30px;
-	color: #fff;
+	color: var(--title-color);
 	position: relative;
 	top: 20px;
 }
-.overview-milk-shakes__button {
-	box-sizing: border-box;
-	border-radius: 27px;
-	width: 135px;
-	height: 50px;
-	background-color: #a55376;
-	display: flex;
+.milk-shakes .main-btn {
+	margin: 0 auto;
+	display: block;
 	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
 	position: relative;
-	top: 65px;
-	left: 68px;
-}
-.button-link__shakes {
-	color: #fff;
-	text-decoration: none;
-	position: relative;
-	top: 10px;
+	top: 60px;
+	background-color: #a55376;
 }
 .overview-menu__ice-cream {
 	box-sizing: border-box;
@@ -85,28 +75,55 @@
 }
 .ice-cream {
 	text-align: center;
+	margin: 0 auto;
 }
 .overview-menu__ice-cream-text {
 	font-size: 30px;
-	color: #fff;
+	color: var(--title-color);
 	position: relative;
 	top: 20px;
 }
-.overview-ice-cream__button {
-	box-sizing: border-box;
-	border-radius: 27px;
-	width: 135px;
-	height: 50px;
-	background-color: var(--brand-color);
-	display: flex;
+
+.ice-cream .main-btn {
+	margin: 0 auto;
+	display: block;
 	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
 	position: relative;
-	top: 45px;
-	left: 65px;
+	top: 60px;
 }
-.button-link__ice-cream {
-	color: #fff;
-	text-decoration: none;
-	position: relative;
-	top: 10px;
+
+@media (min-width: 750px) {
+	.overview-menu__section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.overview-menu__block,
+	.overview-menu__block-shakes,
+	.overview-menu__ice-cream {
+		height: 450px;
+	}
 }
+
+@media (min-width: 950px) {
+	.overview-menu__section {
+		display: flex;
+		flex-direction: row;
+		column-gap: 20px;
+	}
+	.overview-menu__block,
+	.overview-menu__block-shakes,
+	.overview-menu__ice-cream {
+		height: 460px;
+	}
+}
+@media (min-width: 1000px) {
+	.overview-menu__section {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
+	}
+  }
+  
