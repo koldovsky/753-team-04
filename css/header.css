@@ -5,43 +5,19 @@
     padding: 1.5rem;
     padding-top: 1rem;
 }
+.main-page-text{
+    text-align: left;
+    align-items: start;
+}
 
 .main-page {
     padding-top: 7rem;
-}
-
-.main-page__title {
-    font-family: 'Dangrek', cursive;
-    font-size: 3.625rem;
-    color: var(--title-color);
-    line-height: 4rem;
-}
-
-.main-page__title span {
-    font-family: 'Leckerli One', cursive;
-    font-size: 0.875rem;
-}
-
-.main-page__sub-title {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 1.25rem;
-    color: var(--subtitle-color);
-    letter-spacing: 0.4px;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
 }
 
 .header__nav-image {
     width: 129px;
 }
 
-.header__nav-left {
-    display: none;
-}
-
-.header__nav-right {
-    display: none;
-}
 
 .main-page__btn-flex {
     display: flex;

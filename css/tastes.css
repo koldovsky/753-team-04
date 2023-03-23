@@ -145,7 +145,7 @@
 }
 
 .mask-additional-button:hover {
-    background-color: var(--mask-color);
+    background-color: var(--button-mask-color);
     opacity: 0.9;
     transition: 0.5s;
 }

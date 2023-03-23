@@ -26,13 +26,17 @@
     --menu-main-color: #537398;
     --menu-subtitle-color: #ececf2;
     --menu-text-color: #c3c4cE;
+    --menu-price-color: #ffc452;
+    --menu-border-color: #605473;
+    --menu-tab-border-active-color: #b87390;
+    --menu-tab-text-color: #b6b1bf;
     --contacts-background-color: #f8b83d;
     --cotacts-main-color: #ffc452;
     --contacts-text-color: #fff;
     --tastes-description-color: #a6a6a6;
     --tastes-carousel-arrows-color: #000;
-    --btn-secondary-hover-bg-color: #eab754;
-    --mask-color: rgba(255, 255, 255, 0.3);
+    --button-secondary-hover-bg-color: #eab754;
+    --button-mask-color: rgba(255, 255, 255, 0.3);
 }
 
 img {
@@ -90,7 +94,7 @@ a {
 }
 
 .mask-additional-button__block:hover {
-    background-color: var(--btn-secondary-hover-bg-color);
+    background-color: var(--button-secondary-hover-bg-color);
 }
 
 .block__text-style {
@@ -100,7 +104,32 @@ a {
 }
 
 .mask-additional-button:hover {
-    background-color: var(--mask-color);
+    background-color: var(--button-mask-color);
     opacity: 0.9;
     transition: 0.2s;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    color: var(--title-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text>.text__sub-title {
+    width: 80%;
+    line-height: 35px;
+    font-size: 2.12rem;
+    margin: 10px 0 10px 0;
+    font-family: 'Dangrek', cursive;
+}
+
+.text>.text__text {
+    width: 80%;
+    margin-top: 20px;
+    color: var(--subtitle-color);
+    font-size: 1.25rem;
+    font-family: 'Source Sans 3', sans-serif;
 }
