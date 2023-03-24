@@ -118,6 +118,11 @@ a {
     align-items: center;
 }
 
+.text>.text__title {
+    font-family: 'Leckerli One';
+    font-size: 1rem;
+}
+
 .text>.text__sub-title {
     width: 80%;
     line-height: 35px;
