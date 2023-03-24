@@ -5,7 +5,8 @@
     padding: 1.5rem;
     padding-top: 1rem;
 }
-.main-page-text{
+
+.main-page-text {
     text-align: left;
     align-items: start;
 }
@@ -42,54 +43,7 @@ header .mask-additional-button__block {
     border-radius: 32px;
 }
 
-.nav-link {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 1.0625rem;
-    color: var(--subtitle-color);
-}
-
-.animated-icon {
-    width: 25px;
-    height: 20px;
-    position: relative;
-    margin: 0px;
-    cursor: pointer;
-}
-
-.animated-icon span {
-    background: var(--title-color);
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-}
-
-.animated-icon span:nth-child(1) {
-    top: 0px;
-}
-
-.animated-icon span:nth-child(2),
-.animated-icon span:nth-child(3) {
-    top: 7px;
-}
-
-.animated-icon span:nth-child(4) {
-    top: 14px;
-}
-
-.navbar-toggler {
-    border: none !important;
-    box-shadow: none !important;
-}
-
 .header a {
     letter-spacing: 0.495px;
     font-size: 1.03125rem;
-}
-
-.navbar {
-    text-align: center;
 }
