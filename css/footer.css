@@ -17,17 +17,16 @@
 	text-align: center;
 	font-size: 18px;
 }
-.footer__social__links {
+.footer__social-icons {
+	display: flex;
+	justify-content: center;
 }
-.facebook__link {
-}
-.instagram__link {
-}
-.twitter__link {
-}
-.youtube__link {
-}
-.footer__navigation {
+.welcome__text{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: var(--text-color);
+	font-size: 18px;
 }
 .nav {
 	display: block;
