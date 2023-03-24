@@ -28,7 +28,7 @@
 	color: var(--text-color);
 	font-size: 18px;
 }
-.nav {
+.footer .nav {
 	display: block;
 	margin: auto;
 	text-align: center;
