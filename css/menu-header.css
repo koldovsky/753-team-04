@@ -1,0 +1,8 @@
+.header {
+    background: var(--menu-main-color);
+}
+
+.text__main-title {
+    font-family: 'Dangrek', cursive;
+    font-size: 34px;
+}
