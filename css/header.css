@@ -11,11 +11,21 @@
     align-items: start;
 }
 
+.main-page-text .text__sub-title {
+    font-size: 3.625rem;
+    line-height: 3.98rem;
+}
+
+.main-page-text .text__text {
+    width: 100%;
+}
+
 .main-page {
     padding-top: 7rem;
 }
 
 .main-page__btn-flex {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
 }
