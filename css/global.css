@@ -111,7 +111,6 @@ a {
 }
 
 .text {
-    width: 100%;
     text-align: center;
     color: var(--title-color);
     display: flex;
@@ -125,7 +124,6 @@ a {
 }
 
 .text>.text__sub-title {
-    width: 80%;
     line-height: 35px;
     font-size: 2.12rem;
     margin: 10px 0 10px 0;
@@ -133,7 +131,6 @@ a {
 }
 
 .text>.text__text {
-    width: 80%;
     margin-top: 20px;
     color: var(--subtitle-color);
     font-size: 1.25rem;
