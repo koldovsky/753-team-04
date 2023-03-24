@@ -15,11 +15,6 @@
     padding-top: 7rem;
 }
 
-.header__nav-image {
-    width: 129px;
-}
-
-
 .main-page__btn-flex {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,6 @@
 @import "global.css";
 @import "header.css";
+@import "navbar.css";
 @import "tastes.css";
 @import "ingredients.css";
 @import "menu.css";
@@ -9,4 +10,3 @@
 @import "about-us.css";
 @import "footer.css";
 @import "svg.css";
-@import "navbar.css";
