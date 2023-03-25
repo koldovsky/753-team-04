@@ -1,0 +1,6 @@
+.ice-cream,
+.desserts,
+.drinks {
+    background-color: var(--menu-background-color);
+    padding: 60px 0px;
+}
