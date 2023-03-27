@@ -50,9 +50,24 @@
     width: 129px;
 }
 
+nav a:hover {
+    color: var(--subtitle-color) !important;
+}
+
 @media (max-width:991px) {
     .header .navbar-collapse {
         height: 100vh;
         transition-duration: 0s;
+    }
+}
+
+@media (min-width:992px) {
+    nav a:hover {
+        border-bottom-style: solid !important;
+        border-bottom: var(--menu-tab-border-active-color);
+    }
+
+    .a-logo:hover {
+        border-bottom-style: none !important;
     }
 }
