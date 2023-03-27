@@ -52,11 +52,16 @@
 
 nav a:hover {
     color: var(--subtitle-color) !important;
+    transition: 0s;
 }
 
 .burger__background {
     background-image: none;
     background-color: var(--main-page-background-color);
+}
+
+.body__overflow {
+    overflow: hidden;
 }
 
 @media (max-width:991px) {

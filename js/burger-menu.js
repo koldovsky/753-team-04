@@ -8,8 +8,10 @@
   function changeBackground() {
     if (btn.ariaExpanded === "true") {
       header.classList.add("burger__background");
+      document.querySelector("body").classList.add("body__overflow");
     } else {
       header.classList.remove("burger__background");
+      document.querySelector("body").classList.remove("body__overflow");
     }
   }
   btn.addEventListener("click", changeBackground);
@@ -18,6 +20,7 @@
     if (e.target.matches('a')) {
       burgerItems.classList.remove('show');
       header.classList.remove("burger__background");
+      document.querySelector("body").classList.remove("body__overflow");
     }
   }
   )
