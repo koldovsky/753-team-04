@@ -54,6 +54,11 @@ nav a:hover {
     color: var(--subtitle-color) !important;
 }
 
+.burger__background {
+    background-image: none;
+    background-color: var(--main-page-background-color);
+}
+
 @media (max-width:991px) {
     .header .navbar-collapse {
         height: 100vh;
