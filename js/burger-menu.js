@@ -3,6 +3,7 @@
   const btn = document.querySelector(
     "body > header > nav > div > div.navbar-toggler"
   );
+  const burgerItems = document.querySelector("#navbarNav");
 
   function changeBackground() {
     if (btn.ariaExpanded === "true") {
@@ -12,4 +13,12 @@
     }
   }
   btn.addEventListener("click", changeBackground);
+
+  burgerItems.addEventListener('click', function (e) {
+    if (e.target.matches('a')) {
+      burgerItems.classList.remove('show');
+      header.classList.remove("burger__background");
+    }
+  }
+  )
 })();
