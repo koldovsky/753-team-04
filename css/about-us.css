@@ -20,13 +20,13 @@
 
 .about-us__title {
     text-align: center;
-    font-family: Leckerli One;
-    font-size: 0.875rem;
-    font-weight: 400;
+    font-family: Leckerli One, cursive;
     line-height: 14px;
     color: var(--title-color);
     padding-top: 23px;
     padding-bottom: 12px;
+    font-size: 1.06rem;
+    margin-bottom: 20px;
 }
 
 .about-us__subtitle {
@@ -40,7 +40,7 @@
 
 .about-us__main-text {
     text-align: center;
-    font-family: Source Sans;
+    font-family: Source Sans, sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
     color: var(--text-color);
@@ -52,6 +52,11 @@
     align-items: center;
     vertical-align: baseline;
 }    
+
+.cards__experience {
+    align-items: center;
+    display: block;
+}
 
 .cards__title {
     text-align: center;
