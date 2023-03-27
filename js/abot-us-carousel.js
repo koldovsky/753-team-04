@@ -37,10 +37,10 @@
 
     currentPhotos(photoSlides);
 
-    const nextButton = document.querySelector("body > main > section > div > div.staff__carousel > div.arrow-btn-next");
+    const nextButton = document.querySelector("div.staff__carousel > div.arrow-btn-next");
     nextButton.addEventListener('click', nextPhoto);
 
-    const prevButton = document.querySelector("body > main > section > div > div.staff__carousel > div.arrow-btn-prev");
+    const prevButton = document.querySelector("div.staff__carousel > div.arrow-btn-prev");
     prevButton.addEventListener('click', prevPhoto);
 
     window.addEventListener('resize', () => {
