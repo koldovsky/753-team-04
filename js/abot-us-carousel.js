@@ -13,7 +13,7 @@
 
     function currentPhotos(photoSlides) {
         slideContainer.innerHTML = photoSlides[currentSlide];
-        if (window.innerWidth > 1000) {
+        if (window.innerWidth > 500) {
             const secondSlide = currentSlide + 1 >= photoSlides.length ? 0 : currentSlide + 1;
             slideContainer.innerHTML += photoSlides[secondSlide]
         }
