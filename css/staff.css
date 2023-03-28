@@ -118,7 +118,6 @@
 }
 
 @media(min-width:1000px) {
-
     .staff .container {
         display: flex;
         justify-content: center;
