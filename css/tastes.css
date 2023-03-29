@@ -53,23 +53,55 @@
 }
 
 .cards__prev-slide {
-    width: 24px;
-    height: 24px;
-    color: white;
-    background-color: var(--tastes-carousel-arrows-color);
+    background-color: var(--main-page-background-color);
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 18px;
 }
+.color-arrows-with-size{
+    background-color: var(--main-page-background-color);
+    width: 30px;
+    height: 30px;
+}
+.prev-slide__arrow-tastes{
+    transform: rotate(180deg);
 
+}
 .cards__next-slide {
-    width: 24px;
-    height: 24px;
+    background-color: var(--main-page-background-color);
+    width: 30px;
+    height: 30px;
     border: none;
-    color: white;
-    background-color: var(--tastes-carousel-arrows-color);
     border-radius: 18px;
 }
 
+@media (max-width: 1199px) {
+    .cards__prev-slide {
+        background-color: var(--tastes-carousel-arrows-color);
+        width: 32px;
+        height: 32px;
+    }
+    .prev-slide-arrow-tastes{
+        background-color: var(--tastes-carousel-arrows-color);
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+        margin: auto;
+    }
+    .cards__next-slide {
+        width: 32px;
+        height: 32px;
+        background-color: var(--tastes-carousel-arrows-color);
+    }
+    .next-slide-arrow-tastes{
+        background-color: var(--tastes-carousel-arrows-color);
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+        margin: auto;
+    }
+}
 .card__ice-cream {
     width: 250px;
     height: 365px;
