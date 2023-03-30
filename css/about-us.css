@@ -7,15 +7,22 @@
     padding-bottom: 75px;
 }
 
+.wave_brand_color {
+    height: 75px;
+    margin-top: -110px;
+}
+
 .about-us__text {
+    display: block;
     text-align: center;
     font-family: Source Sans, sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
     letter-spacing: 0.4px;
-    color: var(--about-us-texr-color);
+    color: rgb(240, 240, 240);
     padding-bottom: 23px;
     line-height: 30px;
+    margin: 0 auto;
 }
 
 .about-us__title {
@@ -31,19 +38,23 @@
 
 .about-us__subtitle {
     text-align: center;
-    color: var(--about-us-subtitle-color);
     font-family: Dangrek, cursive;
     font-size: 2.13rem;
-    line-height: 37px;
+    line-height: 45.1px;
     margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
 }
 
 .about-us__main-text {
     text-align: center;
+    align-items: center;
     font-family: Source Sans, sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
-    color: var(--text-color);
+    color: rgb(224, 221, 221);
+    line-height: 28.8px;
+    display: block;
 }
 
 .about-us__cards {
@@ -51,11 +62,17 @@
     flex-direction: row;
     align-items: center;
     vertical-align: baseline;
+    line-height: 28.8px;
+    justify-content: center;
 }    
 
 .cards__experience {
     align-items: center;
     display: block;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .cards__title {
@@ -64,7 +81,7 @@
     margin: 10px 0 10px 0;
     font-weight: 400;
     font-family: Dangrek;
-    color: var(--about-us-subtitle-color);
+    color: rgb(255, 255, 255);
 }
 
 .cards__text {
@@ -73,7 +90,7 @@
     letter-spacing: 0.4px;
     font-size: 1.25rem;
     font-weight: 500;
-    color: var(--title-color);
+    color: rgb(255, 255, 255);
     padding-bottom: 23px;
     line-height: 30px;
 }
@@ -86,6 +103,7 @@
     max-height: 40px;
     min-height: 26px;
     line-height: 28.8px;
-    vertical-align: baseline;
+    display: block;
+    align-items: center;
 }
 
