@@ -72,3 +72,13 @@
     color: #c3c4ce;
     font-style: italic;
 }
+
+@media (min-width: 768px) {
+    .products__product .col {
+        flex: 0 0 50%;
+    }
+
+    .product:nth-child(4) {
+        margin-bottom: 0;
+    }
+}
