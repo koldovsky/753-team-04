@@ -5,11 +5,13 @@
     background-color: var(--about-us-background-color);
     background-size: auto;
     padding-bottom: 75px;
+    padding-top: 60px;
 }
 
 .wave_brand_color {
     height: 75px;
     margin-top: -110px;
+    width: 100%;
 }
 
 .about-us__text {
