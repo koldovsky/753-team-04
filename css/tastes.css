@@ -58,6 +58,7 @@
     height: 30px;
     border: none;
     border-radius: 18px;
+    margin-right: 10px;
 }
 
 .color-arrows-with-size {
@@ -77,6 +78,7 @@
     height: 30px;
     border: none;
     border-radius: 18px;
+    margin-left: 10px;
 }
 
 
@@ -197,28 +199,31 @@
 }
 
 @media (max-width: 1199px) {
+    .color-arrows-with-size{
+        background-color: var(--tastes-carousel-arrows-color);
+        border-radius: 20px;
+    }
     .cards__prev-slide {
         background-color: var(--tastes-carousel-arrows-color);
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
     }
 
-    .prev-slide-arrow-tastes {
-        background-color: var(--tastes-carousel-arrows-color);
+    .prev-slide__arrow-tastes {
         width: 20px;
         height: 20px;
         border-radius: 15px;
         margin: auto;
+
     }
 
     .cards__next-slide {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
         background-color: var(--tastes-carousel-arrows-color);
     }
 
-    .next-slide-arrow-tastes {
-        background-color: var(--tastes-carousel-arrows-color);
+    .next-slide__arrow-tastes {
         width: 20px;
         height: 20px;
         border-radius: 15px;
