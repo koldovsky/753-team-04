@@ -1,9 +1,9 @@
 .header {
-    background: var(--about-page-header-bg-color);
-    padding: 1.5rem;
-    padding-top: 1rem;
+  background: var(--about-page-header-bg-color);
+  padding: 1.5rem;
+  padding-top: 1rem;
 }
 
 .text__sub-title {
-    padding-top: 4.375rem;
+  padding-top: 4.375rem;
 }
