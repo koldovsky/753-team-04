@@ -126,13 +126,15 @@ a {
 .text>.text__sub-title {
     line-height: 35px;
     font-size: 2.12rem;
-    margin: 10px 0 10px 0;
+    margin: 10px 25px 10px 25px;
     font-family: 'Dangrek', cursive;
 }
 
 .text>.text__text {
-    margin-top: 20px;
+    margin: 20px 25px 0 25px;
     color: var(--subtitle-color);
     font-size: 1.25rem;
     font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.4px;
 }

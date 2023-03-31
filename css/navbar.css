@@ -50,9 +50,34 @@
     width: 129px;
 }
 
+nav a:hover {
+    color: var(--subtitle-color) !important;
+    transition: 0s;
+}
+
+.burger__background {
+    background-image: none;
+    background-color: var(--main-page-background-color);
+}
+
+.body__overflow {
+    overflow: hidden;
+}
+
 @media (max-width:991px) {
     .header .navbar-collapse {
         height: 100vh;
         transition-duration: 0s;
+    }
+}
+
+@media (min-width:992px) {
+    nav a:hover {
+        border-bottom-style: solid !important;
+        border-bottom: var(--menu-tab-border-active-color);
+    }
+
+    .a-logo:hover {
+        border-bottom-style: none !important;
     }
 }

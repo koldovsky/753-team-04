@@ -6,14 +6,13 @@
         '<div class="worker"><img src="img/about-us-second-page/eloise-birkenstone.png" alt="Eloise Birkenstone"><p class="workers__name">Eloise Birkenstone</p></div></div>',
     ];
 
-    const carousel = document.querySelector('.staff__carousel');
     const slideContainer = document.querySelector('.staff__carousel .staff__carousel__workers');
 
     let currentSlide = 0;
 
     function currentPhotos(photoSlides) {
         slideContainer.innerHTML = photoSlides[currentSlide];
-        if (window.innerWidth > 1000) {
+        if (window.innerWidth > 500) {
             const secondSlide = currentSlide + 1 >= photoSlides.length ? 0 : currentSlide + 1;
             slideContainer.innerHTML += photoSlides[secondSlide]
         }
