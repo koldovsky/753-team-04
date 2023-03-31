@@ -111,6 +111,7 @@
 	color: var(--button-additional-color);
 	font-size: 22px;
 	text-align: center;
+	width: 100%;
 }
 
 @media (min-width: 750px) {
