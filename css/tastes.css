@@ -53,22 +53,34 @@
 }
 
 .cards__prev-slide {
-    width: 24px;
-    height: 24px;
-    color: white;
-    background-color: var(--tastes-carousel-arrows-color);
+    background-color: var(--main-page-background-color);
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 18px;
+    margin-right: 10px;
+}
+
+.color-arrows-with-size {
+    background-color: var(--main-page-background-color);
+    width: 30px;
+    height: 30px;
+}
+
+.prev-slide__arrow-tastes {
+    transform: rotate(180deg);
+
 }
 
 .cards__next-slide {
-    width: 24px;
-    height: 24px;
+    background-color: var(--main-page-background-color);
+    width: 30px;
+    height: 30px;
     border: none;
-    color: white;
-    background-color: var(--tastes-carousel-arrows-color);
     border-radius: 18px;
+    margin-left: 10px;
 }
+
 
 .card__ice-cream {
     width: 250px;
@@ -111,8 +123,6 @@
     font-family: 'Source Sans 3', sans-serif;
     color: var(--price-color);
 }
-
-
 .mask-additional-button {
     border-radius: 27px;
 }
@@ -188,6 +198,38 @@
     }
 }
 
+@media (max-width: 1199px) {
+    .color-arrows-with-size{
+        background-color: var(--tastes-carousel-arrows-color);
+        border-radius: 20px;
+    }
+    .cards__prev-slide {
+        background-color: var(--tastes-carousel-arrows-color);
+        width: 30px;
+        height: 30px;
+    }
+
+    .prev-slide__arrow-tastes {
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+        margin: auto;
+
+    }
+
+    .cards__next-slide {
+        width: 30px;
+        height: 30px;
+        background-color: var(--tastes-carousel-arrows-color);
+    }
+
+    .next-slide__arrow-tastes {
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+        margin: auto;
+    }
+}
 
 
 

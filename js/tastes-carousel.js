@@ -13,17 +13,18 @@
     let currentSlide = 0;
 
     function renderIceCream(iceCreams) {
+        let n = 0;
         slideContainer.innerHTML = iceCreams[currentSlide];
         if (window.innerWidth > 610) {
-            const secondSlide = currentSlide + 1 >= iceCreams.length ? 0 : currentSlide + 1;
+            const secondSlide = currentSlide + 1 >= iceCreams.length ? n++ : currentSlide + 1;
             slideContainer.innerHTML += iceCreams[secondSlide];
         }
         if (window.innerWidth > 880) {
-            const thirdSlide = currentSlide + 2 >= iceCreams.length ? 2 : currentSlide + 2;
+            const thirdSlide = currentSlide + 2 >= iceCreams.length ? n++ : currentSlide + 2;
             slideContainer.innerHTML += iceCreams[thirdSlide];
         }
         if (window.innerWidth > 1180) {
-            const fourSlide = currentSlide + 3 >= iceCreams.length ? 3 : currentSlide + 3;
+            const fourSlide = currentSlide + 3 >= iceCreams.length ? n++ : currentSlide + 3;
             slideContainer.innerHTML += iceCreams[fourSlide];
         }
     }

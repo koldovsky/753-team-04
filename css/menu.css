@@ -4,15 +4,43 @@
 
 .cards__card {
     background-color: var(--brand-color);
+    position: relative;
+    width: 100%;
 }
 
-.cards__card>.card-text {
+.cards__card::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.cards__card .card-text {
     color: #fff;
-    /* should be variable */
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.cards__card .card-img {
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .price {
     color: var(--menu-price-color);
+}
+
+
+.grid__desserts>*,
+.grid__drinks>*,
+.grid__ice-creams>* {
+    padding: 10px 15px;
 }
 
 .menu__tab {
@@ -21,23 +49,23 @@
     overflow-y: hidden;
 }
 
-.menu__tab>.nav-item {
+.menu__tab .nav-item {
     flex: 0 0 auto;
 }
 
-.menu__tab>.nav-item>.nav-link {
+.menu__tab .nav-item .nav-link {
     color: var(--menu-tab-text-color);
 }
 
-.menu__tab>.nav-item>.nav-link:hover {
+.menu__tab .nav-item .nav-link:hover {
     border-color: transparent;
 }
 
-.menu__tab>.nav-item>.nav-link.active {
+.menu__tab .nav-item .nav-link.active {
     background-color: transparent;
     border-color: transparent;
     color: #fff;
-    border-bottom: 2px solid var(--menu-tab-border-active-color);
+    border-bottom: 3px solid var(--menu-tab-border-active-color);
 }
 
 

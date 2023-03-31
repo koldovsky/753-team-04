@@ -6,7 +6,6 @@
         '<div class="worker"><img src="img/about-us-second-page/eloise-birkenstone.png" alt="Eloise Birkenstone"><p class="workers__name">Eloise Birkenstone</p></div></div>',
     ];
 
-    const carousel = document.querySelector('.staff__carousel');
     const slideContainer = document.querySelector('.staff__carousel .staff__carousel__workers');
 
     let currentSlide = 0;
