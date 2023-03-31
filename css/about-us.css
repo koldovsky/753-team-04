@@ -6,6 +6,7 @@
     background-size: auto;
     padding-bottom: 75px;
     padding-top: 60px;
+    justify-content: center;
 }
 
 .wave-container-about-us {
@@ -74,11 +75,12 @@
 
 .cards__experience {
     align-items: center;
-    display: block;
+    display: flex;
     flex-direction: column;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    justify-content: center;
 }
 
 .cards__title {
