@@ -111,12 +111,13 @@
 	.overview-menu__section {
 		display: flex;
 		flex-direction: row;
-		column-gap: 20px;
+		
 	}
 	.overview-menu__block,
 	.overview-menu__block-shakes,
 	.overview-menu__ice-cream {
 		height: 460px;
+		
 	}
 }
 @media (min-width: 1000px) {
