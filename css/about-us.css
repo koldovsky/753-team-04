@@ -56,7 +56,7 @@
 .about-us__main-text {
     text-align: center;
     font-family: Source Sans, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: rgb(224, 221, 221);
     line-height: 28.8px;
@@ -71,6 +71,7 @@
     vertical-align: baseline;
     line-height: 28.8px;
     justify-content: center;
+    margin-top: 50px;
 }    
 
 .cards__experience {
@@ -116,18 +117,18 @@
 }
 
 @media(min-width: 750px) {
-    .about-us__cards {
+    .about-us {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-column-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+		align-items: center;
     }
 }
 
 @media(min-width: 950px) {
-    .about-us__cards {
+    .about-us {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         column-gap: 32px;
     }
 }
