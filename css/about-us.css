@@ -20,10 +20,10 @@
 }
 
 .about-us__text {
-    display: block;
+    display: flex;
     text-align: center;
     font-family: Source Sans, sans-serif;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
     color: rgb(240, 240, 240);
@@ -55,13 +55,13 @@
 
 .about-us__main-text {
     text-align: center;
-    align-items: center;
     font-family: Source Sans, sans-serif;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 400;
     color: rgb(224, 221, 221);
     line-height: 28.8px;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .about-us__cards {
@@ -96,7 +96,7 @@
     text-align: center;
     font-family: Source Sans, sans-serif;
     letter-spacing: 0.4px;
-    font-size: 1.25rem;
+    font-size: 18px;
     font-weight: 500;
     color: rgb(255, 255, 255);
     padding-bottom: 23px;
