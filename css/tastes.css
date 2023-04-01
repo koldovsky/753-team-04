@@ -15,8 +15,8 @@
 }
 
 .text__title {
-  font-family: "Leckerli One", serif;
-  font-size: 1rem;
+    font-family: 'Leckerli One', serif;
+    font-size: 1rem;
 }
 
 .text__sub-title {
@@ -138,9 +138,9 @@
 }
 
 .block__text-style {
-  color: var(--button-text-color);
-  font-size: 15px;
-  font-family: "Source Sans Pro", serif;
+    color: var(--button-text-color);
+    font-size: 15px;
+    font-family: "Source Sans Pro", serif;
 }
 
 .mask-additional-button:hover {
@@ -197,17 +197,17 @@
 }
 
 @media (max-width: 1199px) {
-  .color-arrows-with-size {
-    background-color: var(--tastes-carousel-arrows-color);
-    border-radius: 20px;
-  }
-  .cards__prev-slide {
-    background-color: var(--tastes-carousel-arrows-color);
-    width: 30px;
-    height: 30px;
-    margin: -10px;
-    z-index: 1;
-  }
+    .color-arrows-with-size{
+        background-color: var(--tastes-carousel-arrows-color);
+        border-radius: 20px;
+    }
+    .cards__prev-slide {
+        background-color: var(--tastes-carousel-arrows-color);
+        width: 30px;
+        height: 30px;
+        margin: -10px;
+        z-index: 1;
+    }
 
   .prev-slide__arrow-tastes {
     width: 20px;
@@ -216,12 +216,12 @@
     margin: auto;
   }
 
-  .cards__next-slide {
-    width: 30px;
-    height: 30px;
-    background-color: var(--tastes-carousel-arrows-color);
-    margin: -10px;
-  }
+    .cards__next-slide {
+        width: 30px;
+        height: 30px;
+        background-color: var(--tastes-carousel-arrows-color);
+        margin: -10px;
+    }
 
   .next-slide__arrow-tastes {
     width: 20px;
