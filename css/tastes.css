@@ -1,235 +1,232 @@
 .tastes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--main-page-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-page-background-color);
 }
 
 .tastes__text {
-    width: 100%;
-    text-align: center;
-    color: var(--title-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  text-align: center;
+  color: var(--title-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text__title {
-    font-family: 'Leckerli One';
-    font-size: 1rem;
+  font-family: "Leckerli One", serif;
+  font-size: 1rem;
 }
 
 .text__sub-title {
-    width: 80%;
-    line-height: 35px;
-    font-size: 2.12rem;
-    margin: 10px 0 10px 0;
-    font-family: 'Dangrek', cursive;
+  width: 80%;
+  line-height: 35px;
+  font-size: 2.12rem;
+  margin: 10px 0 10px 0;
+  font-family: "Dangrek", cursive;
 }
 
 .text__we-have {
-    width: 80%;
-    margin-top: 20px;
-    color: var(--subtitle-color);
-    font-size: 1.25rem;
-    font-family: 'Source Sans 3', sans-serif;
+  width: 80%;
+  margin-top: 20px;
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .tastes__cards {
-    max-width: 1200px;
-    margin: 40px 0 50px 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  max-width: 1200px;
+  margin: 40px 0 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards__carousel {
-    width: 90%;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1100px;
+  width: 90%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
 }
 
 .cards__prev-slide {
-    background-color: var(--main-page-background-color);
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 18px;
-    margin-right: 10px;
+  background-color: var(--main-page-background-color);
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 18px;
+  margin-right: 10px;
 }
 
 .color-arrows-with-size {
-    background-color: var(--main-page-background-color);
-    width: 30px;
-    height: 30px;
+  background-color: var(--main-page-background-color);
+  width: 30px;
+  height: 30px;
 }
 
 .prev-slide__arrow-tastes {
-    transform: rotate(180deg);
-
+  transform: rotate(180deg);
 }
 
 .cards__next-slide {
-    background-color: var(--main-page-background-color);
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 18px;
-    margin-left: 10px;
+  background-color: var(--main-page-background-color);
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 18px;
+  margin-left: 10px;
 }
 
-
 .card__ice-cream {
-    width: 250px;
-    height: 365px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #32264b;
-    border-radius: 10px;
+  width: 250px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #32264b;
+  border-radius: 10px;
 }
 
 .ice-cream__img {
-    margin-top: 28px;
-    width: 203px;
-    height: 157px;
+  margin-top: 28px;
+  width: 203px;
+  height: 157px;
 }
 
 .ice-cream__name {
-    font-family: 'Dangrek', cursive;
-    font-size: 1.5rem;
-    color: var(--title-color);
+  font-family: "Dangrek", cursive;
+  font-size: 1.5rem;
+  color: var(--title-color);
 }
 
 .ice-cream__description {
-    font-size: 1.1rem;
-    font-family: 'Source Sans 3', sans-serif;
-    font-style: italic;
-    color: var(--tastes-description-color);
+  font-size: 1.1rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-style: italic;
+  color: var(--tastes-description-color);
 }
 
 .ice-cream__price {
-    font-size: 1.2rem;
-    font-family: 'Source Sans 3', sans-serif;
-    color: var(--text-color);
+  font-size: 1.2rem;
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--text-color);
 }
 
 .price__numbers {
-    font-size: 1.2rem;
-    font-family: 'Source Sans 3', sans-serif;
-    color: var(--price-color);
+  font-size: 1.2rem;
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--price-color);
 }
 .mask-additional-button {
-    border-radius: 27px;
+  border-radius: 27px;
 }
 
 .mask-additional-button__block {
-    width: 160px;
-    height: 50px;
-    background-color: var(--button-additional-color);
-    border-radius: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
+  width: 160px;
+  height: 50px;
+  background-color: var(--button-additional-color);
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .block__text-style {
-    color: var(--button-text-color);
-    font-size: 15px;
-    font-family: "Source Sans Pro";
+  color: var(--button-text-color);
+  font-size: 15px;
+  font-family: "Source Sans Pro", serif;
 }
 
 .mask-additional-button:hover {
-    background-color: var(--button-mask-color);
-    opacity: 0.9;
-    transition: 0.5s;
+  background-color: var(--button-mask-color);
+  opacity: 0.9;
+  transition: 0.5s;
 }
 
 @media (min-width: 768px) {
-    .carousel-control-next {
-        width: 32px;
-        height: 32px;
-    }
+  .carousel-control-next {
+    width: 32px;
+    height: 32px;
+  }
 
-    .carousel-control-next-icon {
-        width: 20px;
-        height: 20px;
-    }
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+  }
 
-    .carousel-control-prev {
-        width: 32px;
-        height: 32px;
-    }
+  .carousel-control-prev {
+    width: 32px;
+    height: 32px;
+  }
 
-    .carousel-control-prev-icon {
-        width: 20px;
-        height: 20px;
-    }
+  .carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 610px) {
-    .cards__carousel {
-        width: 250px;
-        margin: 0;
-    }
+  .cards__carousel {
+    width: 250px;
+    margin: 0;
+  }
 }
 
 @media (min-width: 611px) {
-    .cards__carousel {
-        max-width: 550px;
-    }
+  .cards__carousel {
+    max-width: 550px;
+  }
 }
 
 @media (min-width: 881px) {
-    .cards__carousel {
-        max-width: 850px;
-    }
+  .cards__carousel {
+    max-width: 850px;
+  }
 }
 
 @media (min-width: 1180px) {
-    .cards__carousel {
-        max-width: 1200px;
-    }
+  .cards__carousel {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: 1199px) {
-    .color-arrows-with-size{
-        background-color: var(--tastes-carousel-arrows-color);
-        border-radius: 20px;
-    }
-    .cards__prev-slide {
-        background-color: var(--tastes-carousel-arrows-color);
-        width: 30px;
-        height: 30px;
-    }
+  .color-arrows-with-size {
+    background-color: var(--tastes-carousel-arrows-color);
+    border-radius: 20px;
+  }
+  .cards__prev-slide {
+    background-color: var(--tastes-carousel-arrows-color);
+    width: 30px;
+    height: 30px;
+    margin: -10px;
+    z-index: 1;
+  }
 
-    .prev-slide__arrow-tastes {
-        width: 20px;
-        height: 20px;
-        border-radius: 15px;
-        margin: auto;
+  .prev-slide__arrow-tastes {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: auto;
+  }
 
-    }
+  .cards__next-slide {
+    width: 30px;
+    height: 30px;
+    background-color: var(--tastes-carousel-arrows-color);
+    margin: -10px;
+  }
 
-    .cards__next-slide {
-        width: 30px;
-        height: 30px;
-        background-color: var(--tastes-carousel-arrows-color);
-    }
-
-    .next-slide__arrow-tastes {
-        width: 20px;
-        height: 20px;
-        border-radius: 15px;
-        margin: auto;
-    }
+  .next-slide__arrow-tastes {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: auto;
+  }
 }
-
-
-

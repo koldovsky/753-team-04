@@ -1,106 +1,94 @@
-.ingredients__items{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--main-page-background-color);
-    background-size: cover;
-    min-width: 320px;
-    
+.ingredients {
+  background-color: var(--main-page-background-color);
+  background-size: cover;
+}
+
+.ingredients__items {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 1200px;
 }
 
 .ingredients__image {
-    display: block;
-    max-width: 669px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
+  display: block;
+  max-width: 669px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
 }
 
 .ingredients__content {
-    text-align: left;
-    margin: 30px 10px 20px 15px;
-    color: #fff;
+  text-align: left;
+  margin: 30px 10px 20px 15px;
+  color: #fff;
 }
 
 .ingredients__title {
-    font-family: Leckerli One;
-    font-size: 0.875rem;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 14px;
-    padding-top: 23px;
-    padding-bottom: 12px;
-
+  font-family: Leckerli One;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 14px;
+  padding-top: 23px;
+  padding-bottom: 12px;
 }
-
-
 
 .ingredients__subtitle {
-    font-size: 2.125rem;
-    font-weight: 400;
-    font-family: Dangrek;
-    letter-spacing: normal;
-    /* line-height: 14px; */
-    padding-bottom: 16px;
+  font-size: 2.125rem;
+  font-weight: 400;
+  font-family: Dangrek;
+  letter-spacing: normal;
+  padding-bottom: 16px;
 }
-
-
 
 .ingredients__text {
-    font-family: Source Sans;
-    font-size: 1.25rem;
-    font-weight: 500;
-    letter-spacing: 0.4px;
-    /* line-height: 14px; */
-    
-    color: var(--text-color);
-    padding-bottom: 23px;
+  font-family: Source Sans, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: var(--text-color);
+  padding-bottom: 23px;
 }
 
-
 .ingredients__listing {
-    /* list-style-type: none;
-    list-style-image: url(../img/ingredients/listing-image.svg);  */
-    
-    margin-left: 15px;
-    margin-bottom: 10px;
-    
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 .ingredients__listing .ingredients__list::marker {
-    /* content: url(../img/ingredients/listing-image.svg); */
-    font-size: 15px;
-    color: #b87390;
-
+  font-size: 15px;
+  color: #b87390;
 }
 
 .ingredients__list {
-    font-family: Source Sans;
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: var(--text-color);
-    padding-bottom: 15px; 
+  font-family: Source Sans, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--text-color);
+  padding-bottom: 15px;
 }
 
 .ingredients__main-text {
-    font-family: Source Sans;
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: rgb(185, 177, 197);
-    
+  font-family: Source Sans, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: rgb(185, 177, 197);
 }
 
-@media(min-width: 800px) {
-    .ingredients__items {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .ingredients__image {
-        width: 523px;
-        height: 476px;
-    }
+@media (min-width: 800px) {
+  .ingredients__items {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .ingredients__image {
+    max-width: 1500px;
+    max-height: 1000px;
+  }
 
-    
-    
+  .ingredients__content {
+    padding-top: 70px;
+  }
 }
-    

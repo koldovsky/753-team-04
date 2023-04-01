@@ -1,153 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@400;500&family=Source+Sans+Pro:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@400;500&family=Source+Sans+Pro:wght@700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --brand-color: #32264b;
-    --main-page-background-color: #493b5f;
-    --title-color: #fff;
-    --subtitle-color: #e1dde8;
-    --text-color: #b9b1c5;
-    --button-additional-color: #ffc452;
-    --button-text-color: #fff;
-    --button-hover: #6D3D61;
-    --price-color: #ffc452;
-    --footer-additional-color: #ffc452;
-    --about-us-background-color: #b87390;
-    --about-us-main-color: #a55376;
-    --about-us-subtitle-color: #f0f0f0;
-    --about-us-texr-color: #e0dddd;
-    --menu-background-color: #6382a7;
-    --menu-main-color: #537398;
-    --menu-subtitle-color: #ececf2;
-    --menu-text-color: #c3c4cE;
-    --menu-price-color: #ffc452;
-    --menu-border-color: #605473;
-    --menu-tab-border-active-color: #b87390;
-    --menu-tab-text-color: #b6b1bf;
-    --contacts-background-color: #f8b83d;
-    --cotacts-main-color: #ffc452;
-    --contacts-text-color: #fff;
-    --tastes-description-color: #a6a6a6;
-    --tastes-carousel-arrows-color: #000;
-    --button-secondary-hover-bg-color: #eab754;
-    --button-mask-color: rgba(255, 255, 255, 0.3);
-    --about-page-header-bg-color: #A45276;
+  --brand-color: #32264b;
+  --main-page-background-color: #493b5f;
+  --title-color: #fff;
+  --subtitle-color: #e1dde8;
+  --text-color: #b9b1c5;
+  --button-additional-color: #ffc452;
+  --button-text-color: #fff;
+  --button-hover: #6d3d61;
+  --price-color: #ffc452;
+  --footer-additional-color: #ffc452;
+  --about-us-background-color: #b87390;
+  --about-us-main-color: #a55376;
+  --about-us-subtitle-color: #f0f0f0;
+  --about-us-texr-color: #e0dddd;
+  --menu-background-color: #6382a7;
+  --menu-main-color: #537398;
+  --menu-subtitle-color: #ececf2;
+  --menu-text-color: #c3c4ce;
+  --menu-price-color: #ffc452;
+  --menu-border-color: #605473;
+  --menu-tab-border-active-color: #b87390;
+  --menu-tab-text-color: #b6b1bf;
+  --contacts-background-color: #f8b83d;
+  --cotacts-main-color: #ffc452;
+  --contacts-text-color: #fff;
+  --tastes-description-color: #a6a6a6;
+  --tastes-carousel-arrows-color: #000;
+  --button-secondary-hover-bg-color: #eab754;
+  --button-mask-color: rgba(255, 255, 255, 0.3);
+  --about-page-header-bg-color: #a45276;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .main-btn {
-    display: flex;
-    justify-content: center;
-    background-color: var(--brand-color);
-    padding: 15px 30px;
-    width: 140px;
-    height: 50px;
-    border-radius: 27px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background-color: var(--brand-color);
+  padding: 15px 30px;
+  width: 140px;
+  height: 50px;
+  border-radius: 27px;
+  cursor: pointer;
 }
 
 .main-btn:hover {
-    background-color: var(--button-hover);
-    transition: 0.2s;
+  background-color: var(--button-hover);
+  transition: 0.2s;
 }
 
 .main-btn__text {
-    text-decoration: none;
-    color: var(--button-text-color);
-    font-family: "Source Sans Pro";
-    font-size: 0.94rem;
-    align-self: center;
+  text-decoration: none;
+  color: var(--button-text-color);
+  font-family: "Source Sans Pro", serif;
+  font-size: 0.94rem;
+  align-self: center;
 }
 
 .mask-additional-button {
-    border-radius: 27px;
+  border-radius: 27px;
 }
 
 .mask-additional-button__block {
-    width: 160px;
-    height: 50px;
-    background-color: var(--button-additional-color);
-    border-radius: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
+  width: 160px;
+  height: 50px;
+  background-color: var(--button-additional-color);
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .mask-additional-button__block:hover {
-    background-color: var(--button-secondary-hover-bg-color);
+  background-color: var(--button-secondary-hover-bg-color);
 }
 
 .block__text-style {
-    color: var(--button-text-color);
-    font-size: 0.94rem;
-    font-family: "Source Sans Pro";
+  color: var(--button-text-color);
+  font-size: 0.94rem;
+  font-family: "Source Sans Pro", serif;
 }
 
 .mask-additional-button:hover {
-    background-color: var(--button-mask-color);
-    opacity: 0.9;
-    transition: 0.2s;
+  background-color: var(--button-mask-color);
+  opacity: 0.9;
+  transition: 0.2s;
 }
 
 .text {
-    text-align: center;
-    color: var(--title-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  text-align: center;
+  color: var(--title-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.text>.text__title {
-    font-family: 'Leckerli One';
-    font-size: 1rem;
+.text > .text__title {
+  font-family: "Leckerli One", serif;
+  font-size: 1rem;
 }
 
-.text>.text__sub-title {
-    line-height: 35px;
-    font-size: 2.12rem;
-    margin: 10px 25px 10px 25px;
-    font-family: 'Dangrek', cursive;
+.text > .text__sub-title {
+  line-height: 35px;
+  font-size: 2.12rem;
+  margin: 10px 25px 10px 25px;
+  font-family: "Dangrek", cursive;
 }
 
-.text>.text__text {
-    margin: 20px 25px 0 25px;
-    color: var(--subtitle-color);
-    font-size: 1.25rem;
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.4px;
+.text > .text__text {
+  margin: 20px 25px 0 25px;
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.4px;
 }
-.about-page__sub-title{
-    font-family: 'Dangrek', cursive;
-    font-size:1.875rem;
-    text-align: left;
+.about-page__sub-title {
+  font-family: "Dangrek", cursive;
+  font-size: 1.875rem;
+  text-align: left;
 }
-.about-page__sub-text{
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 1.125rem;
-    font-stretch: 100%;
-    color:var(--about-us-texr-color);
-    font-weight: 400;
-    text-align: left;
+.about-page__sub-text {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.125rem;
+  font-stretch: 100%;
+  color: var(--about-us-texr-color);
+  font-weight: 400;
+  text-align: left;
 }
-

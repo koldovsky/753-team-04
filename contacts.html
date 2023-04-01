@@ -4,29 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Page</title>
     <link
       rel="shortcut icon"
       type="image/png"
       href="img/header/shortcut-icon.png"
       sizes="96x96"
     />
+    <title>Contacts page</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/about-page.css" />
+    <link rel="stylesheet" href="css/contacts-index.css" />
   </head>
 
   <body>
-    <!-- Olkhovyk Anastasiia -->
     <header class="header">
       <nav class="navbar navbar-expand-lg bg-transparent container">
         <div class="container-fluid">
           <a
-            class="a-logo nav-item nav-link navbar-brand d-block d-lg-none"
+            class="nav-item nav-link navbar-brand d-block d-lg-none"
             href="index.html"
           >
             <div class="header__nav-image">
@@ -66,7 +66,7 @@
                 >
               </div>
               <a
-                class="a-logo nav-item nav-link w-100 d-lg-flex justify-content-center d-none d-lg-block"
+                class="nav-item nav-link w-100 d-lg-flex justify-content-center d-none d-lg-block"
                 href="index.html"
               >
                 <div class="header__nav-image">
@@ -96,182 +96,122 @@
           </div>
         </div>
       </nav>
-      <div class="text">
-        <h1 class="text__sub-title">About Us</h1>
+
+      <div class="contacts__title">
+        <h1 class="contacts__title-text">Contacts</h1>
       </div>
     </header>
+
     <main>
-      <!--Mykhailo Popovych-->
-      <section class="staff">
-        <div class="container">
-          <div class="staff__text-block">
-            <div class="staff__header text">
-              <h2 class="text__title">Our staff</h2>
-              <p class="text__sub-title">Meet Our Team</p>
-              <p class="text__text">
-                Our staff is our pride. We are happy to welcome new members of
-                our family.
-              </p>
+      <section class="contacts">
+        <div class="contacts__content">
+          <div class="contacts__phone">
+            <div class="contacts__icons">
+              <img
+                class="contact-icon"
+                src="img/contacts/contacts-phone.svg"
+                alt="Phone icon"
+              />
             </div>
-            <div class="staff__text">
-              <p>
-                Our main qualities are respect for customers, cheerfulness, and
-                willingness to work hard to provide the best service for cafe
-                guests.
-              </p>
-            </div>
-            <div class="main-btn">
-              <a href="#" class="main-btn__text">Send SV</a>
+            <div class="contacts__content-text">
+              <p class="contacts__content-title">Phone</p>
+              <p class="contacts__content-text">+1 (234) 567 89 00</p>
+              <p class="contacts__content-text">+1 (234) 567 89 01</p>
             </div>
           </div>
-          <div class="staff__carousel">
-            <div class="arrow-btn-prev">
+
+          <div class="contacts__email">
+            <div class="contacts__icons">
               <img
-                src="img/about-us-second-page/arrow-carousel.svg"
-                alt="arrow"
+                class="contact-icon"
+                src="img/contacts/contacts-email.svg"
+                alt="Email icon"
               />
             </div>
-            <div class="staff__carousel__workers workers"></div>
-            <div class="arrow-btn-next">
+
+            <div class="contacts__email-text">
+              <p class="contacts__content-title">Email</p>
+              <p class="contacts__content-text">mr.snowman@email.com</p>
+              <p class="contacts__content-text">mr.snowmanbook@email.com</p>
+            </div>
+          </div>
+
+          <div class="contacts__address">
+            <div class="contacts__icons">
               <img
-                src="img/about-us-second-page/arrow-carousel.svg"
-                alt="arrow"
+                class="contact-icon"
+                src="img/contacts/contacts-address.svg"
+                alt="Address icon"
               />
+            </div>
+            <div class="contacts__address-text">
+              <p class="contacts__content-title">Cafe Address</p>
+              <p class="contacts__content-text">
+                176 Spring St, New York, NY 10012, United States
+              </p>
+            </div>
+          </div>
+
+          <div class="contacts__hours">
+            <div class="contacts__icons">
+              <img
+                class="contact-icon"
+                src="img/contacts/contacts-clock.svg"
+                alt="Clock icon"
+              />
+            </div>
+            <div class="contacts__hours-text">
+              <p class="contacts__content-title">Working Hours</p>
+              <p class="contacts__content-text">Mon – Thu: 10:00 AM – 11 PM</p>
+              <p class="contacts__content-text">Sat - Sun : 11:00 AM – 11 PM</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="faq">
-        <div class="faq__content container">
-          <div class="text">
-            <span class="about-page__sub-title">
-              You can taste the most delicious ice cream in New York in our
-              cafe.
-            </span>
-          </div>
-          <div>
-            <span class="about-page__sub-text">
-              We are always glad to see you in our cafe. Here you can enjoy
-              natural ice cream according to original recipes or order a dessert
-              or a cold drink from the menu.<br /><br />
 
-              Our employees do everything to make you feel as comfortable as
-              possible so that you can have a great time in the cafe or quickly
-              buy your favorite ice cream in one of our stores.
-            </span>
+      <section class="contacts__form">
+        <div class="contacts__form-content">
+          <div class="form__map"></div>
+
+          <div class="contacts__application-form">
+            <input
+              class="form-contacts"
+              type="text"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              class="form-contacts"
+              type="text"
+              placeholder="Phone Number"
+              required
+            />
+            <input
+              class="form-contacts"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              class="form-contacts"
+              placeholder="Type your message"
+              rows="1"
+            ></textarea>
+            <button type="button" class="form-btn">Send a Message</button>
           </div>
-          <div
-            class="accordion accordion-flush main-btn__text"
-            id="accordionFlushExample"
-          >
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed about-page__accordion-btn"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseOne"
-                >
-                  Is it possible to throw a party at your cafe?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body about-page__accordion-text">
-                  Sure. Contact our managers, and they will tell you about all
-                  the details.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed about-page__accordion-btn"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseTwo"
-                >
-                  How can I book a table?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body about-page__accordion-text">
-                  You can book a table through the form on this website or by
-                  phone number.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed about-page__accordion-btn"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  Where are your shops located?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body about-page__accordion-text">
-                  Mr. Snowman has a network of 18+ shops in New York. You can
-                  find them on the map or by contacting our managers.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed about-page__accordion-btn"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseFour"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseFour"
-                >
-                  Do you have any seasonal offers?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseFour"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body about-page__accordion-text">
-                  Yes! Every season, we present new cool tastes of ice cream
-                  based on seasonal products.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="wave-container">
-          <img
-            class="wave-img"
-            src="img/blog/mobile-wave.svg"
-            alt="wave block separator"
-          />
         </div>
       </section>
     </main>
+
+    <!-- FOOTER HERE -->
     <footer>
+      <div class="footer__wave-container">
+        <img
+          class="footer-wave-brand-color"
+          src="img/blog/mobile-wave.svg"
+          alt="wave"
+        />
+      </div>
       <div class="footer">
         <div class="grid-container">
           <div class="grid-item">
@@ -408,17 +348,19 @@
               <h3 class="footer__text__title">Navigation</h3>
 
               <p><a href="about-us.html" class="nav__about-us">About us</a></p>
-              <p><a href="menu.html" class="nav__menu">Menu</a></p>
+              <p><a href="#" class="nav__menu">Menu</a></p>
               <p><a href="#" class="nav__spec">Special</a></p>
               <p>
-                <a href="#ingredients" class="nav__ingredients">Ingredients</a>
+                <a href="index.html#ingredients" class="nav__ingredients"
+                  >Ingredients</a
+                >
               </p>
             </div>
           </div>
           <div class="grid-item">
             <div class="footer__support support">
               <h3 class="footer__text__title">Help & Support</h3>
-              <p><a href="#blog" class="support__blog">Blog</a></p>
+              <p><a href="#" class="support__blog">Blog</a></p>
               <p><a href="#" class="support__term">Terms & Conditions</a></p>
               <p><a href="#" class="support__help">Help</a></p>
               <p><a href="#" class="support__contact">Contacts</a></p>
@@ -446,7 +388,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="js/about-us-carousel.js"></script>
     <script src="js/burger-menu.js"></script>
   </body>
 </html>

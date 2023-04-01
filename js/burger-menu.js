@@ -16,12 +16,11 @@
   }
   btn.addEventListener("click", changeBackground);
 
-  burgerItems.addEventListener('click', function (e) {
-    if (e.target.matches('a')) {
-      burgerItems.classList.remove('show');
+  burgerItems.addEventListener("click", function (e) {
+    if (e.target.matches("a")) {
+      burgerItems.classList.remove("show");
       header.classList.remove("burger__background");
       document.querySelector("body").classList.remove("body__overflow");
     }
-  }
-  )
+  });
 })();

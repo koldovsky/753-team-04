@@ -1,88 +1,87 @@
 .nav-link {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 1.0625rem;
-    color: var(--title-color);
-    --bs-nav-link-hover-color: var(--title-color);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.0625rem;
+  color: var(--title-color);
+  --bs-nav-link-hover-color: var(--title-color);
 }
 
 .nav-link:focus-visible {
-    outline: none;
+  outline: none;
 }
 
 .animated-icon {
-    width: 25px;
-    height: 20px;
-    position: relative;
-    margin: 0px;
-    cursor: pointer;
+  width: 25px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  cursor: pointer;
 }
 
 .animated-icon span {
-    background: var(--title-color);
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
+  background: var(--title-color);
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
 }
 
 .animated-icon span:nth-child(1) {
-    top: 0;
+  top: 0;
 }
 
 .animated-icon span:nth-child(2),
 .animated-icon span:nth-child(3) {
-    top: 7px;
+  top: 7px;
 }
 
 .animated-icon span:nth-child(4) {
-    top: 14px;
+  top: 14px;
 }
 
 .navbar-toggler {
-    border: none !important;
-    box-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-
 .navbar {
-    text-align: center;
+  text-align: center;
 }
 
 .header__nav-image {
-    width: 129px;
+  width: 129px;
 }
 
 nav a:hover {
-    color: var(--subtitle-color) !important;
-    transition: 0s;
+  color: var(--subtitle-color) !important;
+  transition: 0s;
 }
 
 .burger__background {
-    background-image: none;
-    background-color: var(--main-page-background-color);
+  background-image: none;
+  background-color: var(--main-page-background-color);
 }
 
 .body__overflow {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-@media (max-width:991px) {
-    .header .navbar-collapse {
-        height: 100vh;
-        transition-duration: 0s;
-    }
+@media (max-width: 991px) {
+  .header .navbar-collapse {
+    height: 100vh;
+    transition-duration: 0s;
+  }
 }
 
-@media (min-width:992px) {
-    nav a:hover {
-        border-bottom-style: solid !important;
-        border-bottom: var(--menu-tab-border-active-color);
-    }
+@media (min-width: 992px) {
+  nav a:hover {
+    border-bottom-style: solid !important;
+    border-bottom: var(--menu-tab-border-active-color);
+  }
 
-    .a-logo:hover {
-        border-bottom-style: none !important;
-    }
+  .a-logo:hover {
+    border-bottom-style: none !important;
+  }
 }
