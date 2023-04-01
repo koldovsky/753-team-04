@@ -145,7 +145,6 @@ a {
 .about-page__sub-text {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.125rem;
-  font-stretch: 100%;
   color: var(--about-us-texr-color);
   font-weight: 400;
   text-align: left;
