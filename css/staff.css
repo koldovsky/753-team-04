@@ -27,7 +27,7 @@
 }
 
 .staff__text {
-  font-family: Source Sans, sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.13rem;
   line-height: 29px;
   color: var(--about-us-texr-color);
