@@ -15,7 +15,7 @@
 }
 
 .text__title {
-    font-family: 'Leckerli One';
+    font-family: 'Leckerli One', serif;
     font-size: 1rem;
 }
 
@@ -142,7 +142,7 @@
 .block__text-style {
     color: var(--button-text-color);
     font-size: 15px;
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", serif;
 }
 
 .mask-additional-button:hover {
@@ -207,6 +207,8 @@
         background-color: var(--tastes-carousel-arrows-color);
         width: 30px;
         height: 30px;
+        margin: -10px;
+        z-index: 1;
     }
 
     .prev-slide__arrow-tastes {
@@ -221,6 +223,7 @@
         width: 30px;
         height: 30px;
         background-color: var(--tastes-carousel-arrows-color);
+        margin: -10px;
     }
 
     .next-slide__arrow-tastes {

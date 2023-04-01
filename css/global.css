@@ -73,7 +73,7 @@ a {
 .main-btn__text {
     text-decoration: none;
     color: var(--button-text-color);
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", serif;
     font-size: 0.94rem;
     align-self: center;
 }
@@ -101,7 +101,7 @@ a {
 .block__text-style {
     color: var(--button-text-color);
     font-size: 0.94rem;
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", serif;
 }
 
 .mask-additional-button:hover {
@@ -119,7 +119,7 @@ a {
 }
 
 .text>.text__title {
-    font-family: 'Leckerli One';
+    font-family: 'Leckerli One',serif;
     font-size: 1rem;
 }
 
