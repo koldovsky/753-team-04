@@ -37,6 +37,7 @@
   --button-secondary-hover-bg-color: #eab754;
   --button-mask-color: rgba(255, 255, 255, 0.3);
   --about-page-header-bg-color: #a45276;
+  --contacts-button-hover: #a45276;
 }
 
 img {
@@ -148,4 +149,26 @@ a {
   color: var(--about-us-texr-color);
   font-weight: 400;
   text-align: left;
+}
+
+
+.contacts__form-button {
+  background-color: rgb(50, 38, 75);
+  border-radius: 27px;
+  border-style: hidden;
+  color: var(--contacts-text-color);
+  cursor: pointer;
+  font-family: "Source Sans Pro", serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  margin-top: 27px;
+  width: 80%;
+}
+
+.contacts__form-button:hover {
+  background-color: var(--contacts-button-hover);
+  transition: 0.2s;
 }
