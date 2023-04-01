@@ -1,7 +1,12 @@
 .nav-link {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.0625rem;
-    color: var(--subtitle-color);
+    color: var(--title-color);
+    --bs-nav-link-hover-color: var(--title-color);
+}
+
+.nav-link:focus-visible {
+    outline: none;
 }
 
 .animated-icon {
@@ -24,7 +29,7 @@
 }
 
 .animated-icon span:nth-child(1) {
-    top: 0px;
+    top: 0;
 }
 
 .animated-icon span:nth-child(2),

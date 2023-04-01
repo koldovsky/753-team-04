@@ -14,7 +14,6 @@
     --text-color: #b9b1c5;
     --button-additional-color: #ffc452;
     --button-text-color: #fff;
-    --button-additional-color: #ffc452;
     --button-hover: #6D3D61;
     --price-color: #ffc452;
     --footer-additional-color: #ffc452;
@@ -138,3 +137,17 @@ a {
     font-weight: 500;
     letter-spacing: 0.4px;
 }
+.about-page__sub-title{
+    font-family: 'Dangrek', cursive;
+    font-size:1.875rem;
+    text-align: left;
+}
+.about-page__sub-text{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.125rem;
+    font-stretch: 100%;
+    color:var(--about-us-texr-color);
+    font-weight: 400;
+    text-align: left;
+}
+
