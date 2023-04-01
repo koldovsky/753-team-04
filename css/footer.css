@@ -1,145 +1,144 @@
 .footer {
-	background: var(--brand-color);
-	padding: 80px 24px 70px;
-	font-family: "Source Sans 3", sans-serif;
+  background: var(--brand-color);
+  padding: 80px 24px 70px;
+  font-family: "Source Sans 3", sans-serif;
 }
 .footer__welcome {
 }
 .footer__mr-showman {
-	max-height: 47px;
-	max-width: 196px;
-	margin: auto;
+  max-height: 47px;
+  max-width: 196px;
+  margin: auto;
 }
 .footer__text {
-	color: var(--text-color);
-	margin: auto;
-	margin-top: 30px;
-	text-align: center;
-	font-size: 18px;
+  color: var(--text-color);
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
 }
 .footer__social-icons {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .welcome__text {
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	color: var(--text-color);
-	font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .footer .nav {
-	display: block;
-	margin: auto;
-	text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 .footer__text__title {
-	color: var(--title-color);
-	font-size: 21px;
-	margin: 50px 0px 20px;
+  color: var(--title-color);
+  font-size: 21px;
+  margin: 50px 0px 20px;
 }
 .nav__about-us {
-	color: var(--text-color);
-	font-size: 18px;
-	font-family: "Source Sans 3", sans-serif;
+  color: var(--text-color);
+  font-size: 18px;
+  font-family: "Source Sans 3", sans-serif;
 }
 .nav__menu {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .nav__spec {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .nav__ingredients {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .footer__support {
-	display: block;
-	margin: auto;
-	text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 .support__blog {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .support__term {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .support__help {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .support__contact {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .footer__schedule-booking {
-	display: block;
-	margin: auto;
-	text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 .schedule {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .schedule__weekend {
-	color: var(--text-color);
-	font-size: 18px;
+  color: var(--text-color);
+  font-size: 18px;
 }
 .book__number {
-	color: var(--button-additional-color);
-	font-size: 22px;
+  color: var(--button-additional-color);
+  font-size: 22px;
 }
 .footer__line::after {
-	content: "";
-	display: block;
-	border-bottom: 1px solid white;
-	margin-top: 10px;
-	opacity: 0.2;
-	padding-top: 40px;
+  content: "";
+  display: block;
+  border-bottom: 1px solid white;
+  margin-top: 10px;
+  opacity: 0.2;
+  padding-top: 40px;
 }
 .footer__footer {
-	color: var(--title-color);
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  color: var(--title-color);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .footer__schedule-booking .text__sub-title {
-	color: var(--button-additional-color);
-	font-size: 22px;
-	text-align: center;
-	width: 100%;
+  color: var(--button-additional-color);
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
 }
 
 @media (min-width: 750px) {
-	.grid-container {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 5px;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-	}
-	.grid-item {
-		text-align: center;
-	}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-item {
+    text-align: center;
+  }
 }
-@media (min-width: 750px) {	
-	.footer__footer_text {
-		float: right;
-	}
+@media (min-width: 750px) {
+  .footer__footer_text {
+    float: right;
+  }
 
-	.footer__footer_text-two {
-		float: left;
-	}
+  .footer__footer_text-two {
+    float: left;
+  }
 }
 
 @media (min-width: 1100px) {
-	.grid-container {
-		width: 1100px;
-	}
-	
+  .grid-container {
+    width: 1100px;
+  }
 }
