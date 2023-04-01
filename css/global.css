@@ -71,11 +71,11 @@ a {
 }
 
 .main-btn__text {
-  text-decoration: none;
-  color: var(--button-text-color);
-  font-family: "Source Sans Pro";
-  font-size: 0.94rem;
-  align-self: center;
+    text-decoration: none;
+    color: var(--button-text-color);
+    font-family: "Source Sans Pro", serif;
+    font-size: 0.94rem;
+    align-self: center;
 }
 
 .mask-additional-button {
@@ -99,9 +99,9 @@ a {
 }
 
 .block__text-style {
-  color: var(--button-text-color);
-  font-size: 0.94rem;
-  font-family: "Source Sans Pro";
+    color: var(--button-text-color);
+    font-size: 0.94rem;
+    font-family: "Source Sans Pro", serif;
 }
 
 .mask-additional-button:hover {
@@ -118,9 +118,9 @@ a {
   align-items: center;
 }
 
-.text > .text__title {
-  font-family: "Leckerli One";
-  font-size: 1rem;
+.text>.text__title {
+    font-family: 'Leckerli One',serif;
+    font-size: 1rem;
 }
 
 .text > .text__sub-title {
