@@ -1,37 +1,53 @@
-
+.contacts {
+    background-color: rgb(248,185,60);
+    background-size: cover;
+}
 
 .contacts__content {
     display: flex;
     flex-direction: column;
-    margin: 55px 0 100px 30px;
-
+    margin: 0 0 100px 30px;
 }
 
 .contacts__phone, .contacts__email, .contacts__address, .contacts__hours {
-    border: 1px solid green;
     width: 200px;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 30px;
     text-align: left;
 }
 
+
+
 .contacts__icons {
     width: 33px;
     padding-bottom: 22px;
+    color: var( --contacts-text-color);
+
+}
+
+.contact-icon {
+    border: 1px solid red;
+    border-radius: 100%;
 }
 
 .contacts__content-title {
     font-family: "Dangrek", cursive;
     font-size: 1.375rem;
-    /* color: var(--title-color); */
+    color: var( --contacts-text-color);
     font-weight: 400;
     line-height: 28.6px;
+    padding-bottom: 17px;
 }
 
 .contacts__content-text {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.125rem;
-    /* color: var(--title-color); */
+    color: var( --contacts-text-color);
     font-weight: 400;
     line-height: 28.6px;
 }
+
+.contacts__content p {
+    margin: 0;
+}
+
