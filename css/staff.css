@@ -1,140 +1,139 @@
 .staff {
-    background-color: var(--about-us-background-color);
-    padding: 60px 0;
+  background-color: var(--about-us-background-color);
+  padding: 60px 0;
 }
 
 .staff .container {
-    padding: 0 24px;
+  padding: 0 24px;
 }
 
 .staff .text {
-    align-items: baseline;
+  align-items: baseline;
 }
 
 .staff .text__title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .staff .text__sub-title {
-    padding: 0;
-    margin: 0 0 25px;
+  padding: 0;
+  margin: 0 0 25px;
 }
 
 .staff .text__text {
-    margin: 0 0 25px;
-    font-weight: 500;
-    text-align: left;
+  margin: 0 0 25px;
+  font-weight: 500;
+  text-align: left;
 }
 
 .staff__text {
-    font-family: Source Sans, sans-serif;
-    font-size: 1.13rem;
-    line-height: 29px;
-    color: var(--about-us-texr-color);
-    margin-bottom: 35px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.13rem;
+  line-height: 29px;
+  color: var(--about-us-texr-color);
+  margin-bottom: 35px;
 }
 
 .staff .main-btn {
-    background-color: var(--about-us-main-color);
-    margin: 10px;
+  background-color: var(--about-us-main-color);
+  margin: 10px;
 }
 
 .staff .main-btn:hover {
-    background-color: var(--brand-color)
+  background-color: var(--brand-color);
 }
 
 .worker {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .workers img {
-    border-radius: 6px 6px 0 0;
-    height: 400px;
-    object-fit: cover;
+  border-radius: 6px 6px 0 0;
+  height: 400px;
+  object-fit: cover;
 }
 
-
 .workers__name {
-    width: 100%;
-    line-height: 31px;
-    background-color: var(--about-us-main-color);
-    text-align: center;
-    font-family: 'Dangrek', cursive;
-    color: var(--title-color);
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 0 0 6px 6px;
-    padding: 15px 0;
+  width: 100%;
+  line-height: 31px;
+  background-color: var(--about-us-main-color);
+  text-align: center;
+  font-family: "Dangrek", cursive;
+  color: var(--title-color);
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0 0 6px 6px;
+  padding: 15px 0;
 }
 
 .arrow-btn-next,
 .arrow-btn-prev {
-    width: 40px;
-    height: 40px;
-    background-color: var(--about-us-main-color);
-    border-radius: 50%;
-    padding: 5px 5px 5px 3px;
-    align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--about-us-main-color);
+  border-radius: 50%;
+  padding: 5px 5px 5px 3px;
+  align-items: center;
 }
 
 .arrow-btn-next {
-    padding: 5px 0px 5px 7px;
+  padding: 5px 0px 5px 7px;
 }
 
-.arrow-btn-next>img {
-    max-width: 30px;
+.arrow-btn-next > img {
+  max-width: 30px;
 }
 
-.arrow-btn-prev>img {
-    max-width: 30px;
-    transform: rotate(180deg);
+.arrow-btn-prev > img {
+  max-width: 30px;
+  transform: rotate(180deg);
 }
 
 .staff__carousel {
-    display: grid;
-    grid-template-columns: 40px 1fr 40px;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+@media (min-width: 500px) {
+  .staff__carousel {
+    max-width: 100%;
+  }
+
+  .workers {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+  }
+
+  .workers img {
+    height: 300px;
+  }
+
+  .worker {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .staff .container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    max-width: 400px;
-    margin: auto;
-}
+  }
 
-@media(min-width: 500px) {
-    .staff__carousel {
-        max-width: 100%;
-    }
+  .staff__text-block {
+    width: 25%;
+  }
 
-    .workers {
-        display: flex;
-        gap: 15px;
-        justify-content: space-around;
-    }
+  .staff__carousel {
+    width: 75%;
+  }
 
-    .workers img {
-        height: 300px;
-    }
-
-    .worker {
-        width: 50%;
-    }
-}
-
-@media(min-width:1000px) {
-    .staff .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .staff__text-block {
-        width: 25%;
-    }
-
-    .staff__carousel {
-        width: 75%;
-    }
-
-    .worker {
-        width: 50%;
-        min-height: 350px;
-    }
+  .worker {
+    width: 50%;
+    min-height: 350px;
+  }
 }
