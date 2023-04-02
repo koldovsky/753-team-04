@@ -1,5 +1,5 @@
 .contacts {
-    background-color: rgb(248,185,60);
+    background-color: var(--contacts-bg-sections-color);
     background-size: cover;
 }
 
@@ -70,7 +70,7 @@
 
 
 .contacts__form {
-    background-color: rgb(248,185,60);
+    background-color: var(--contacts-bg-sections-color);
     background-size: cover;
 }
 
@@ -93,8 +93,8 @@
 
 .contacts__application-form { 
     border-radius: 6px;
-    border-color: rgb(50,38,75);
-    background: rgb(254,196,82);
+    border-color: var(--contacts-bg-form-border-color);
+    background: var(--contacts-bg-form-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +135,7 @@
     margin-top: 13px;
     margin-bottom: 17px;
     box-sizing: border-box;
-    background-color: rgb(248,185,60);
+    background-color: var(--contacts-bg-form-inputs-color);
     border-radius: 27px;
     border-style: hidden;
     border-color: #493b5f;

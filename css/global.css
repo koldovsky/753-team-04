@@ -31,13 +31,19 @@
   --menu-tab-text-color: #b6b1bf;
   --contacts-background-color: #f8b83d;
   --cotacts-main-color: #ffc452;
-  --contacts-text-color: #fff;
   --tastes-description-color: #a6a6a6;
   --tastes-carousel-arrows-color: #000;
   --button-secondary-hover-bg-color: #eab754;
   --button-mask-color: rgba(255, 255, 255, 0.3);
   --about-page-header-bg-color: #a45276;
+  --contacts-bg-header-color: rgb(254,196,82);
+  --contacts-bg-sections-color: rgb(248,185,60);
+  --contacts-bg-form-color: rgb(254,196,82);
+  --contacts-bg-form-inputs-color: rgb(248,185,60);
+  --contacts-bg-form-border-color: rgb(50,38,75);
   --contacts-button-hover: #a45276;
+  --contacts-text-color: #fff;
+  
 }
 
 img {
