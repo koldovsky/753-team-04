@@ -49,9 +49,18 @@
 
 .workers img {
   border-radius: 6px 6px 0 0;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
+
+.worker__Jane {
+  object-position: 63%;
+}
+
+.worker__Thomas {
+  object-position: 43%;
+}
+
 
 .workers__name {
   width: 100%;
@@ -106,10 +115,6 @@
     display: flex;
     gap: 15px;
     justify-content: space-around;
-  }
-
-  .workers img {
-    height: 300px;
   }
 
   .worker {
