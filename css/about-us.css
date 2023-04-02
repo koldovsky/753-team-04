@@ -19,17 +19,21 @@
   width: 100%;
 }
 
-.about-us__text {
-  display: flex;
+.about-us .container {
   text-align: center;
-  font-family: Source Sans, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  color: rgb(240, 240, 240);
-  padding-bottom: 23px;
-  line-height: 30px;
-  margin: 0 auto;
+}
+
+.about-us__text {
+    display: flex;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: rgb(240, 240, 240);
+    padding-bottom: 23px;
+    line-height: 30px;
+    margin: 0 auto;
 }
 
 .about-us__title {
@@ -54,14 +58,14 @@
 }
 
 .about-us__main-text {
-  text-align: center;
-  font-family: Source Sans, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgb(224, 221, 221);
-  line-height: 28.8px;
-  display: flex;
-  justify-content: center;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(224, 221, 221);
+    line-height: 28.8px;
+    display: flex;
+    justify-content: center;
 }
 
 .about-us__cards {
@@ -84,6 +88,10 @@
   justify-content: center;
 }
 
+.about-us-images {
+    background-color: #a55376;
+    border-radius: 50%;
+}
 .cards__title {
   text-align: center;
   font-size: 2.125rem;
@@ -94,14 +102,14 @@
 }
 
 .cards__text {
-  text-align: center;
-  font-family: Source Sans, sans-serif;
-  letter-spacing: 0.4px;
-  font-size: 18px;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
-  padding-bottom: 23px;
-  line-height: 30px;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-bottom: 23px;
+    line-height: 30px;
 }
 
 .cards__images {
@@ -116,19 +124,24 @@
   align-items: center;
 }
 
-@media (max-width: 750px) {
-  .about-us {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-  }
+@media(max-width: 750px) {
+    .about-us {
+        flex-direction: column;
+        justify-content: center;
+		align-items: center;
+    }
+    .about-us__cards {
+      flex-direction: column;
+    }
 }
 
-@media (min-width: 751px) {
-  .about-us {
-    display: flex;
-    flex-direction: column;
-    column-gap: 32px;
-  }
+@media(min-width: 751px) {
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        column-gap: 32px;
+        max-width: 992px;
+    }
 }
+
+
