@@ -91,6 +91,9 @@
 .about-us-images {
     background-color: #a55376;
     border-radius: 50%;
+    background-size: auto;
+    background-origin: padding-box;
+    border: 1rem solid #a55376;
 }
 .cards__title {
   text-align: center;
@@ -139,8 +142,6 @@
     .about-us {
         display: flex;
         flex-direction: column;
-        column-gap: 32px;
-        max-width: 992px;
     }
 }
 
