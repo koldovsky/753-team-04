@@ -1,5 +1,5 @@
 .header {
-    background: rgb(254,196,82);
+    background: var(--contacts-bg-header-color);
     padding: 1.5rem;
     padding-top: 1rem;
   }
