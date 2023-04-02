@@ -92,6 +92,7 @@ a {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
+  border: none;
 }
 
 .mask-additional-button__block:hover {
