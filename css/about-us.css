@@ -66,6 +66,7 @@
     line-height: 28.8px;
     display: flex;
     justify-content: center;
+    max-width: 750px;
 }
 
 .about-us__cards {
