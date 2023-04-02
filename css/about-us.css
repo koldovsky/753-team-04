@@ -22,7 +22,7 @@
 .about-us__text {
     display: flex;
     text-align: center;
-    font-family: Source Sans, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
@@ -55,7 +55,7 @@
 
 .about-us__main-text {
     text-align: center;
-    font-family: Source Sans, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: rgb(224, 221, 221);
@@ -84,6 +84,10 @@
     justify-content: center;
 }
 
+.about-us-images {
+    background-color: #a55376;
+    border-radius: 50%;
+}
 .cards__title {
     text-align: center;
     font-size: 2.125rem;
@@ -95,7 +99,7 @@
 
 .cards__text {
     text-align: center;
-    font-family: Source Sans, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     letter-spacing: 0.4px;
     font-size: 18px;
     font-weight: 500;
@@ -119,17 +123,18 @@
 @media(max-width: 750px) {
     .about-us {
         display: grid;
-        grid-template-columns: 1fr;
+        flex-wrap: wrap;
         justify-content: center;
 		align-items: center;
     }
 }
 
-@media(min-width: 751px) {
+@media(max-width: 1200px) {
     .about-us {
         display: flex;
         flex-direction: column;
         column-gap: 32px;
     }
 }
+
 
