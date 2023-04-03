@@ -27,7 +27,7 @@
 }
 
 .staff__text {
-  font-family: Source Sans, sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.13rem;
   line-height: 29px;
   color: var(--about-us-texr-color);
@@ -49,9 +49,18 @@
 
 .workers img {
   border-radius: 6px 6px 0 0;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
+
+.worker__Jane {
+  object-position: 63%;
+}
+
+.worker__Thomas {
+  object-position: 43%;
+}
+
 
 .workers__name {
   width: 100%;
@@ -108,16 +117,12 @@
     justify-content: space-around;
   }
 
-  .workers img {
-    height: 300px;
-  }
-
   .worker {
     width: 50%;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1000px)  {
   .staff .container {
     display: flex;
     justify-content: center;
