@@ -54,3 +54,23 @@ header .mask-additional-button__block {
   letter-spacing: 0.495px;
   font-size: 1.03125rem;
 }
+
+@media (min-width: 768px) {
+  header .text__title {
+    font-size: 1.0625rem;
+  }
+
+  .main-page-text .text__sub-title {
+    font-size: 4.3125rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header .text__title {
+    font-size: 1.3125rem;
+  }
+
+  .main-page-text .text__sub-title {
+    font-size: 5rem;
+  }
+}
