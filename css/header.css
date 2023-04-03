@@ -14,10 +14,12 @@
 .main-page-text .text__sub-title {
   font-size: 3.625rem;
   line-height: 3.98rem;
+  margin-left: 0;
 }
 
 .main-page-text .text__text {
   width: 100%;
+  margin-left: 0;
 }
 
 .main-page {
