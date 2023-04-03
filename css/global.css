@@ -38,6 +38,8 @@
   --button-secondary-hover-bg-color: #eab754;
   --button-mask-color: rgba(255, 255, 255, 0.3);
   --about-page-header-bg-color: #a45276;
+  --modal-inputs-color: #45385b;
+  --modal-inputs-text-color: #aaa3b4;
 }
 
 img {

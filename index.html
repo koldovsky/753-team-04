@@ -602,33 +602,50 @@
                             Hurry Up to Book the
                             Coziest Table Now!
                         </p>
-                            <button type="button" class="mask-additional-button__block" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">
-                                <span class="block__text-style">Book a Table</span>
-                            </button>
+                        <button type="button" class="mask-additional-button__block" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                            <span class="block__text-style">Book a Table</span>
+                        </button>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                              aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <div class="header__btn-close">
-                                            <div  class="btn-close__icon" data-bs-dismiss="modal"
-                                                  aria-label="Close"></div>
+                                            <div class="btn-close__icon" data-bs-dismiss="modal"
+                                                 aria-label="Close"></div>
                                         </div>
                                         <h2 class="modal-header__title">Booking</h2>
                                         <p class="modal-header__sub-title">Book a Table</p>
                                         <p class="modal-header__text">Please fill out the form below</p>
                                     </div>
                                     <div class="modal-body">
-                                        <input class="modal-body__inputs-book-table" type="text">
-                                        <input type="text">
-                                        <input type="text">
-                                        <input type="text">
-                                        <input type="text">
+                                        <form action="submit" method="POST" class="modal-body__form-book-table">
+                                            <label for="name-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="name-input-book-table" type="text"
+                                                   placeholder="Your Name*">
+                                            <label for="phone-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="phone-input-book-table" type="text"
+                                                   placeholder="Phone number*">
+                                            <label for="email-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="email-input-book-table" type="text"
+                                                   placeholder="Email*">
+                                            <label for="date-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table"
+                                                   placeholder="Choose date"
+                                                   type="text"
+                                                   onfocus="(this.type='date')"
+                                                   id="date-input-book-table"
+                                            >
+                                            <label for="number-people-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="number-people-input-book-table" placeholder="Number of people*"
+                                                   type="text">
+                                        </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary">Book a Table</button>
+                                        <button type="submit" class="btn btn-primary"><span
+                                                class="btn-primary-text-book-table">Book a Table</span></button>
                                     </div>
                                 </div>
                             </div>
@@ -640,7 +657,8 @@
                         Get Advantage of Our Special Offers!
                     </p>
                     <div class="main-btn__block-learn-more">
-                        <a href="#blog" class="button-link main-btn__text"><span class="main-btn__text">Learn More</span></a>
+                        <a href="#blog" class="button-link main-btn__text"><span
+                                class="main-btn__text">Learn More</span></a>
                     </div>
                 </div>
             </div>
