@@ -98,11 +98,15 @@
   border: 1rem solid #a55376;
 }
 
+.divider-component {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 hr.solid {
   height: 3px;
   background-color: #a55376;
   width: 10%;
-  line-height: 28.8px;
 }
 .cards__title {
   text-align: center;
