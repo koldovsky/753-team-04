@@ -1,0 +1,130 @@
+.next-month-special {
+    width: 100%;
+    background-color: var(--main-page-background-color);
+    padding-bottom: 100px;
+}
+
+.next-month-special__blocks {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    padding: 0 40px 0 40px;
+}
+
+.blocks__text-next-month {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-next-month__title {
+    margin: 50px 0 0 0;
+    font-size: 1.3rem;
+    font-family: 'Leckerli One', serif;
+    color: var(--title-color);
+}
+
+.text-next-month__sub-title {
+    margin: 10px 0 10px 0;
+    font-size: 3rem;
+    font-family: "Dangrek", cursive;
+    color: var(--title-color);
+}
+
+.text-next-month__description {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.25rem;
+    color: var(--subtitle-color);
+}
+
+.text-next-month__info-blocks {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info-blocks__background-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: var(--brand-color);
+    border-radius: 60px;
+    margin-right: 20px;
+}
+
+.background-block__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.text-ice-cream__title {
+    font-family: "Dangrek", cursive;
+    color: var(--title-color);
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.text-ice-cream__description {
+    font-family: "Source Sans 3", sans-serif;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.blocks__img-next-month {
+    width: 50%;
+}
+
+.img-next-month__img-ice-cream {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .text-next-month__title{
+        font-size: 1rem;
+    }
+    .text-next-month__sub-title{
+        font-size: 2.5rem;
+    }
+    .text-ice-cream__title{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 767px) {
+    .next-month-special__blocks{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0 20px 0 20px;
+    }
+    .info-blocks__background-block{
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        margin-right: 15px;
+    }
+    .background-block__icon{
+        width: 26px;
+        height: 26px;
+    }
+
+    .blocks__text-next-month{
+        width: 100%;
+    }
+    .text-ice-cream__title{
+        font-size: 1.3rem;
+    }
+    .blocks__img-next-month {
+        margin: 50px 0 80px 0;
+        width: 100%;
+    }
+    .text-next-month__title{
+        font-size: 0.8rem;
+    }
+    .text-next-month__sub-title{
+        font-size: 2.1rem;
+    }
+
+}
