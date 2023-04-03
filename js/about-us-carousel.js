@@ -1,8 +1,8 @@
 (function () {
   const photoSlides = [
-    '<div class="worker"><img src="img/about-us-second-page/jane-woss.png" alt="Jane Woss"><p class="workers__name">Jane Woss</p></div></div>',
-    '<div class="worker"><img src="img/about-us-second-page/tomas-jackson.png" alt="Tomas Jackson"><p class="workers__name">Tomas Jackson</p></div></div>',
-    '<div class="worker"><img src="img/about-us-second-page/eloise-birkenstone.png" alt="Eloise Birkenstone"><p class="workers__name">Eloise Birkenstone</p></div></div>',
+    '<div class="worker"><img class="worker__Jane" src="img/about-us-second-page/jane-woss.png" alt="Jane Woss"><p class="workers__name">Jane Woss</p></div></div>',
+    '<div class="worker"><img class="worker__Thomas" src="img/about-us-second-page/tomas-jackson.png" alt="Tomas Jackson"><p class="workers__name">Tomas Jackson</p></div></div>',
+    '<div class="worker"><img class="worker__Eloise" src="img/about-us-second-page/eloise-birkenstone.png" alt="Eloise Birkenstone"><p class="workers__name">Eloise Birkenstone</p></div></div>',
   ];
 
   const slideContainer = document.querySelector(

@@ -55,7 +55,7 @@
 }
 
 nav a:hover {
-  color: var(--subtitle-color) !important;
+  color: var(--title-color) !important;
   transition: 0s;
 }
 
