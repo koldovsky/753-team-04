@@ -8,7 +8,7 @@
 .overview-menu__block {
 	box-sizing: border-box;
 	border-radius: 5px;
-	min-width: 272px;
+	min-width: 353px;
 	min-height: 178px;
 	margin: 0px 25px 50px 25px;
 	background: url(../img/overview-menu-photo/dessert_photo.png) 52.6% 32.25% / cover no-repeat;
@@ -40,7 +40,7 @@
 .overview-menu__block-shakes {
 	box-sizing: border-box;
 	border-radius: 5px;
-	min-width: 272px;
+	min-width: 353px;
 	min-height: 178px;
 	margin: 0px 25px 50px 25px;
 	background: url(../img/overview-menu-photo/milk_shakes.png) 50.1% 62.75% / cover no-repeat;
@@ -68,7 +68,7 @@
 .overview-menu__ice-cream {
 	box-sizing: border-box;
 	border-radius: 5px;
-	min-width: 272px;
+	min-width: 353px;
 	min-height: 178px;
 	margin: 0px 25px 50px 25px;
 	background: url(../img/overview-menu-photo/ice_cream.png) 58.23% 61.54% / cover no-repeat;
