@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu Page | Ice Cream Cafe</title>
     <link
       rel="shortcut icon"
       type="image/png"
       href="img/header/shortcut-icon.png"
       sizes="96x96"
     />
+    <title>Contacts page</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/menu-index.css" />
+    <link rel="stylesheet" href="css/contacts-index.css" />
   </head>
 
   <body>
@@ -87,7 +88,7 @@
                   href="index.html#blog"
                   >Blog</a
                 >
-                <a class="nav-item nav-link align-self-center" href="contacts.html"
+                <a class="nav-item nav-link align-self-center" href="#"
                   >Contacts</a
                 >
               </div>
@@ -95,491 +96,140 @@
           </div>
         </div>
       </nav>
-      <h1 class="text__main-title text-center fw-normal text-light py-5 my-5">
-        Our Menu
-      </h1>
+
+      <div class="contacts__title">
+        <h1 class="contacts__title-text">Contacts</h1>
+      </div>
     </header>
+
     <main>
-      <section class="ice-cream">
-        <div class="ice-cream__text text">
-          <h2 class="text__title">Treats</h2>
-          <p class="text__sub-title">Ice Cream</p>
-          <p class="text__text">Select your favorite taste of our ice cream.</p>
-        </div>
-        <div class="ice-cream__products products container">
-          <div class="row row-cols-1 products__product">
-            <div class="col">
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/lemon-lime.png"
-                    alt="Lemon & Lime image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Lime and Lemon</span
-                    ><span class="product-price">$6</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Our sourest ice cream for those who don't like sweet tastes
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/blackberry.png"
-                    alt="Blackberry image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Blackberry Wonder</span
-                    ><span class="product-price">$7</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Sour taste and berry flavor are a perfect match
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/mango.png"
-                    alt="Mango image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Mango Dreams</span
-                    ><span class="product-price">$5</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Classic tropic taste with a slice of orange
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/lavender.png"
-                    alt="Lavender image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Lavender Special</span
-                    ><span class="product-price">$8</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Our very special ice cream with strong lavender flavor
-                  </p>
-                </div>
-              </div>
+      <section class="contacts">
+        <div class="contacts__content">
+          <div class="contacts__phone">
+            <div class="contacts__icons">
+              <img
+                class="contact-icon"
+                src="img/contacts/contacts-phone.svg"
+                alt="Phone icon"
+              />
             </div>
-            <div class="col">
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/vanilla.png"
-                    alt="Vanilla image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Vanilla Day</span
-                    ><span class="product-price">$4</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Classic vanilla ice cream with gentle flavor
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/chocolate.png"
-                    alt="Chocolate image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Choco & hazelnut</span
-                    ><span class="product-price">$5</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Rich sweet chocolate taste with hazelnut
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/strawberry.png"
-                    alt="Strawberry image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Strawberry Gem</span
-                    ><span class="product-price">$5</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Fruity and fresh ice cream with pieces of strawberry
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/ice-creams/pistachio.png"
-                    alt="Pistachio image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Pistachio Heaven</span
-                    ><span class="product-price">$5</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Creamy nutty flavor our guests like the most
-                  </p>
-                </div>
-              </div>
+            <div class="contacts__phone-text">
+              <p class="contacts__content-title">Phone</p>
+              <p class="contacts__content-text">+1 (234) 567 89 00</p>
+              <p class="contacts__content-text">+1 (234) 567 89 01</p>
+            </div>
+          </div>
+
+          <div class="contacts__email">
+            <div class="contacts__icons">
+              <img
+                class="contact-icon"
+                src="img/contacts/contacts-email.svg"
+                alt="Email icon"
+              />
+            </div>
+
+            <div class="contacts__email-text">
+              <p class="contacts__content-title">Email</p>
+              <p class="contacts__content-text">mr.snowman@email.com</p>
+              <p class="contacts__content-text">mr.snowmanbook@email.com</p>
+            </div>
+          </div>
+
+          <div class="contacts__address">
+            <div class="contacts__icons">
+              <img
+                class="contact-icon"
+                src="img/contacts/contacts-address.svg"
+                alt="Address icon"
+              />
+            </div>
+            <div class="contacts__address-text">
+              <p class="contacts__content-title">Cafe Address</p>
+              <p class="contacts__content-text">
+                176 Spring St, New York, NY 10012, United States
+              </p>
+            </div>
+          </div>
+
+          <div class="contacts__hours">
+            <div class="contacts__icons">
+              <img
+                class="contact-icon"
+                src="img/contacts/contacts-clock.svg"
+                alt="Clock icon"
+              />
+            </div>
+            <div class="contacts__hours-text">
+              <p class="contacts__content-title">Working Hours</p>
+              <p class="contacts__content-text">Mon – Thu: 10:00 AM – 11 PM</p>
+              <p class="contacts__content-text">Sat - Sun : 11:00 AM – 11 PM</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="desserts">
-        <div class="desserts__text text">
-          <h2 class="text__title">Even more treats</h2>
-          <p class="text__sub-title">Desserts</p>
-          <p class="text__text">
-            We offer a variety of desserts with fruit and whipped cream.
-          </p>
-        </div>
-        <div class="desserts__products products container">
-          <div class="row row-cols-1 products__product">
-            <div class="col">
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/choco-cream.png"
-                    alt="Choco Cream image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Choco Cream</span
-                    ><span class="product-price">$11</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Biscuit, whipped cream, chocolate topping
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/siesta.png"
-                    alt="Siesta image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Siesta</span
-                    ><span class="product-price">$15</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Milk chocolate, berries, whipped cream, strawberry syrup
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/rose-sparkle.png"
-                    alt="Rose Sparkle image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Rose Sparkle</span
-                    ><span class="product-price">$15</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Sliced strawberry, vanilla ice cream, whipped cream
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/gentle-cloud.png"
-                    alt="Gentle Cloud image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Gentle Cloud</span
-                    ><span class="product-price">$12</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Crushed nuts, biscuit, vanilla syrup, whipped cream
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/tropical-day.png"
-                    alt="Tropical Day image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Tropical Day</span
-                    ><span class="product-price">$18</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Lime ice cream, sliced kiwi and coconut, whipped cream
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/berry-mix.png"
-                    alt="Berry Mix image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Berry Mix</span
-                    ><span class="product-price">$13</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Raspberry, blueberry, kiwi, whipped cream
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/hazelnut.png"
-                    alt="Hazelnut image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Hazelnut</span
-                    ><span class="product-price">$12</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Chocolate ice cream, hazelnut, whipped cream, syrup
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/desserts/sweet-joy.png"
-                    alt="sweet-joy image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Sweet Joy</span
-                    ><span class="product-price">$15</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Strawberry, kiwi, banana, whipped cream, syrup
-                  </p>
-                </div>
-              </div>
-            </div>
+
+      <section class="contacts__form">
+        <div class="contacts__form-content">
+          <div class="form__map">
+            <iframe
+              class="contacts__form-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6968904681094!2d-74.0046522848047!3d40.724688679330455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598c41edbcf7%3A0x5e47a0728e2f9b4b!2zMTc2IFNwcmluZyBTdCwgTmV3IFlvcmssIE5ZIDEwMDEyLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1680380270637!5m2!1sru!2sua"
+              style="border: 0"
+              allowfullscreen=""
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-        </div>
-      </section>
-      <section class="drinks">
-        <div class="drinks__text text">
-          <h2 class="text__title">Drinks</h2>
-          <p class="text__sub-title">Milkshakes & Cold Coffee</p>
-          <p class="text__text">Sweet cold drinks for hot days in New York.</p>
-        </div>
-        <div class="drinks__products products container">
-          <div class="row row-cols-1 products__product">
-            <div class="col">
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/ice-latte.png"
-                    alt="Iced Latte image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Iced Latte</span
-                    ><span class="product-price">$10</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Espresso, sugar, whole milk, whipped cream, ice
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/banana-shake.png"
-                    alt="Banana Shake image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Banana Shake</span
-                    ><span class="product-price">$8</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Vanilla ice cream, milk. banana, sugar
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/orange-shake.png"
-                    alt="Orange Shake image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Orange Shake</span
-                    ><span class="product-price">$9</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Vanilla ice cream, orange syrup, milk
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/berry-shake.png"
-                    alt="Berry Shake image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Berry Shake</span
-                    ><span class="product-price">$12</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Blackberries, strawberries, raspberries, and whole milk
-                  </p>
-                </div>
-              </div>
+          <form
+            class="contacts__application-form"
+            action="https://formspree.io/f/xnqygwqn"
+            method="POST"
+          >
+            <div class="form__title">
+              <p class="form__title-text">Hit Us Up!</p>
             </div>
-            <div class="col">
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/mango-shake.png"
-                    alt="Mango Shake image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Mango Shake</span
-                    ><span class="product-price">$8</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Sliced mango, vanilla ice cream, milk, mango syrup
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/choco-choco.png"
-                    alt="Choco-choco image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Choco Choco</span
-                    ><span class="product-price">$9</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Melted dark chocolate, choco ice cream, milk
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/strawberry.png"
-                    alt="Strawberry image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Strawberry Shake</span
-                    ><span class="product-price">$10</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Strawberry ice cream, pieces of strawberry, milk
-                  </p>
-                </div>
-              </div>
-              <div class="product">
-                <div class="product__image-container">
-                  <img
-                    class="product__product-img"
-                    src="img/menu/drinks/caramel.png"
-                    alt="Caramel image"
-                  />
-                </div>
-                <div class="product__text">
-                  <p class="product__product-name-price px-2 text-white">
-                    <span class="product-name">Caramel Shake</span
-                    ><span class="product-price">$8</span>
-                  </p>
-                  <p class="product__product-desc px-2">
-                    Vanilla ice cream, caramel syrup, almond milk
-                  </p>
-                </div>
-              </div>
+
+            <div class="form__sub-title">
+              <p class="form__sub-title-text">
+                Fill out the form below and we'll contact you as soon as we can.
+              </p>
             </div>
-          </div>
+            <input
+              class="form-contacts"
+              type="text"
+              placeholder="Your Name*"
+              name="name"
+              required
+            />
+            <input
+              class="form-contacts"
+              type="text"
+              placeholder="Phone Number*"
+              name="number"
+              required
+            />
+            <input
+              class="form-contacts"
+              type="email"
+              placeholder="Email*"
+              name="email"
+              required
+            />
+            <input
+              class="form-contacts"
+              type="text"
+              placeholder="Type your message"
+              name="message"
+            />
+            <button type="submit" class="contacts__form-button">
+              Send a Message
+            </button>
+          </form>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER HERE -->
     <footer>
       <div class="footer__wave-container">
         <img
@@ -764,5 +414,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="js/burger-menu.js"></script>
   </body>
 </html>

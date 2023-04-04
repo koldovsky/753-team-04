@@ -1,39 +1,39 @@
 .blog {
-    background-color: var(--main-page-background-color);
-    background-image: url(../img/blog/background-elements.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 60px;
+  background-color: var(--main-page-background-color);
+  background-image: url(../img/blog/background-elements.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
 }
 
 .blog .container {
-    padding: 0 24px;
+  padding: 0 24px;
 }
 
 .blog__header {
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 45px;
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 45px;
 }
 
 .blog__title {
-    font-family: Leckerli One, cursive;
-    font-size: 1.06rem;
-    line-height: 17px;
-    margin-bottom: 20px;
+  font-family: Leckerli One, cursive;
+  font-size: 1.06rem;
+  line-height: 17px;
+  margin-bottom: 20px;
 }
 
 .blog__subtitle {
-    font-family: Dangrek, cursive;
-    font-size: 2.56rem;
-    line-height: 45px;
-    margin-bottom: 25px;
+  font-family: Dangrek, cursive;
+  font-size: 2.56rem;
+  line-height: 45px;
+  margin-bottom: 25px;
 }
 
 .blog__advice {
     color: var(--subtitle-color);
-    font-family: Source Sans, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
     letter-spacing: 0.4px;
@@ -41,33 +41,33 @@
 }
 
 .blog__acticles-overview {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-    max-width: 1148px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  max-width: 1148px;
 }
 
 .blog__acticles-overview img {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 .blog__article {
-    max-width: 705px;
-    margin-bottom: 30px;
+  max-width: 705px;
+  margin-bottom: 30px;
 }
 
 .blog__article-title {
-    font-family: Dangrek, cursive;
-    font-size: 1.37rem;
-    line-height: 28.6px;
-    color: var(--title-color);
-    margin: 20px 0;
+  font-family: Dangrek, cursive;
+  font-size: 1.37rem;
+  line-height: 28.6px;
+  color: var(--title-color);
+  margin: 20px 0;
 }
 
 .blog__article-text {
-    font-family: Source Sans, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 1.13rem;
     line-height: 29px;
     color: var(--text-color);
@@ -75,10 +75,10 @@
 }
 
 .wave-img {
-    height: 75px;
+  height: 75px;
 }
 
-@media(min-width: 750px){
+@media(min-width: 750px) {
     .blog__acticles-overview {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -94,4 +94,3 @@
         column-gap: 32px;
     }
 }
-
