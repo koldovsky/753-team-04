@@ -47,12 +47,12 @@
             aria-label="Toggle navigation"
           >
             <div class="animated-icon">
-              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span>
             </div>
           </div>
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav w-100 justify-content-between d-lg-flex">
-              <div class="w-100 d-lg-flex justify-content-around">
+              <div class="w-100 d-lg-flex justify-content-start gap-3">
                 <a
                   class="nav-item nav-link align-self-center"
                   href="about-us.html"
@@ -77,7 +77,7 @@
                   />
                 </div>
               </a>
-              <div class="w-100 d-lg-flex justify-content-around">
+              <div class="w-100 d-lg-flex justify-content-end gap-3">
                 <a
                   class="nav-item nav-link align-self-center"
                   href="#ingredients"
@@ -86,7 +86,7 @@
                 <a class="nav-item nav-link align-self-center" href="#blog"
                   >Blog</a
                 >
-                <a class="nav-item nav-link align-self-center" href="#"
+                <a class="nav-item nav-link align-self-center" href="contacts.html"
                   >Contacts</a
                 >
               </div>
@@ -600,112 +600,119 @@
       <!-- Book a table Turkevych Vitalii -->
       <section class="book-a-table">
         <div class="book-a-table__background">
-          <div class="background__img">
-            <div class="img__book-table">
-              <div class="book-table__block">
-                <h2 class="block__table-title">Book a table</h2>
-                <p class="block__table-sub-title">
-                  Hurry Up to Book the Coziest Table Now!
-                </p>
-                <button
-                  type="button"
-                  class="mask-additional-button__block"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  <span class="block__text-style">Book a Table</span>
-                </button>
-                <div
-                  class="modal fade"
-                  id="exampleModal"
-                  tabindex="-1"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <div class="header__btn-close">
-                          <div
-                            class="btn-close__icon"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></div>
-                        </div>
-                        <h2 class="modal-header__title">Booking</h2>
-                        <p class="modal-header__sub-title">Book a Table</p>
-                        <p class="modal-header__text">
-                          Please fill out the form below
+            <div class="background__img">
+                <div class="img__book-table">
+                    <div class="book-table__block">
+                        <h2 class="block__table-title">Book a table</h2>
+                        <p class="block__table-sub-title">
+                            Hurry Up to Book the
+                            Coziest Table Now!
                         </p>
-                      </div>
-                      <div class="modal-body">
-                        <form
-                          action="submit"
-                          method="POST"
-                          class="modal-body__form-book-table"
-                        >
-                          <label for="name-input-book-table"></label>
-                          <input
-                            class="form-book-table__inputs-book-table"
-                            id="name-input-book-table"
-                            type="text"
-                            placeholder="Your Name*"
-                          />
-                          <label for="phone-input-book-table"></label>
-                          <input
-                            class="form-book-table__inputs-book-table"
-                            id="phone-input-book-table"
-                            type="text"
-                            placeholder="Phone number*"
-                          />
-                          <label for="email-input-book-table"></label>
-                          <input
-                            class="form-book-table__inputs-book-table"
-                            id="email-input-book-table"
-                            type="text"
-                            placeholder="Email*"
-                          />
-                          <label for="date-input-book-table"></label>
-                          <input
-                            class="form-book-table__inputs-book-table"
-                            placeholder="Choose date"
-                            type="text"
-                            onfocus="(this.type='date')"
-                            id="date-input-book-table"
-                          />
-                          <label for="number-people-input-book-table"></label>
-                          <input
-                            class="form-book-table__inputs-book-table"
-                            id="number-people-input-book-table"
-                            placeholder="Number of people*"
-                            type="text"
-                          />
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">
-                          <span class="btn-primary-text-book-table"
-                            >Book a Table</span
-                          >
+                        <button type="button" class="mask-additional-button__block" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                            <span class="block__text-style">Book a Table</span>
                         </button>
-                      </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                             aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="header__btn-close">
+                                            <div class="btn-close__icon" data-bs-dismiss="modal"
+                                                 aria-label="Close"></div>
+                                        </div>
+                                        <h2 class="modal-header__title">Booking</h2>
+                                        <p class="modal-header__sub-title">Book a Table</p>
+                                        <p class="modal-header__text">Please fill out the form below</p>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="submit" method="POST" class="modal-body__form-book-table">
+                                            <label for="name-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="name-input-book-table" type="text"
+                                                   placeholder="Your Name*">
+                                            <label for="phone-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="phone-input-book-table" type="text"
+                                                   placeholder="Phone number*">
+                                            <label for="email-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="email-input-book-table" type="text"
+                                                   placeholder="Email*">
+                                            <label for="date-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table"
+                                                   placeholder="Choose date"
+                                                   type="text"
+                                                   onfocus="(this.type='date')"
+                                                   id="date-input-book-table"
+                                            >
+                                            <label for="number-people-input-book-table"></label>
+                                            <input class="form-book-table__inputs-book-table" id="number-people-input-book-table" placeholder="Number of people*"
+                                                   type="text">
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary"><span
+                                                class="btn-primary-text-book-table">Book a Table</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+                <div class="img__learn-more">
+                    <p class="learn-more__text">
+                        Get Advantage of Our Special Offers!
+                    </p>
+                    <div class="main-btn__block-learn-more">
+                        <a href="#blog" class="button-link main-btn__text"><span
+                                class="main-btn__text">Learn More</span></a>
+                    </div>
+                </div>
             </div>
-            <div class="img__learn-more">
-              <p class="learn-more__text">
-                Get Advantage of Our Special Offers!
-              </p>
-              <div class="main-btn__block-learn-more">
-                <a href="#blog" class="button-link main-btn__text"
-                  ><span class="main-btn__text">Learn More</span></a
-                >
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
+
+    <!-- Next month special Turkevych Vitalii -->
+    <section class="next-month-special">
+        <div class="next-month-special__blocks">
+            <div class="blocks__text-next-month">
+                <h2 class="text-next-month__title">Next month special</h2>
+                <p class="text-next-month__sub-title">Try New Splashes of Taste!</p>
+                <p class="text-next-month__description">Three great ice cream tastes worth waiting for:</p>
+                <div class="text-next-month__info-blocks">
+                    <div class="info-blocks__background-block">
+                        <img class="background-block__icon" src="img/next-month-special/cream-with-vanilla.svg"
+                             alt="icon">
+                    </div>
+                    <div class="info-blocks__text-ice-cream">
+                        <p class="text-ice-cream__title">Cream With Vanilla</p>
+                        <p class="text-ice-cream__description">Fine vanilla flavor with milky aftertaste.</p>
+                    </div>
+                </div>
+
+                <div class="text-next-month__info-blocks">
+                    <div class="info-blocks__background-block">
+                        <img class="background-block__icon" src="img/next-month-special/fresh-fruit.svg" alt="icon">
+                    </div>
+                    <div class="info-blocks__text-ice-cream">
+                        <p class="text-ice-cream__title">Fresh Fruit</p>
+                        <p class="text-ice-cream__description">What is summer without fresh fruit?</p>
+                    </div>
+                </div>
+
+                <div class="text-next-month__info-blocks">
+                    <div class="info-blocks__background-block">
+                        <img class="background-block__icon" src="img/next-month-special/popping-sugar.svg" alt="icon">
+                    </div>
+                    <div class="info-blocks__text-ice-cream">
+                        <p class="text-ice-cream__title">Popping Sugar</p>
+                        <p class="text-ice-cream__description">Feel the sugar pop on your tongue!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blocks__img-next-month">
+                <img class="img-next-month__img-ice-cream" src="img/next-month-special/next-month-special-ice-cream-img.png" alt="image">
+            </div>
+        </div>
+    </section>
 
       <!-- Reznik Anastasiia -->
       <section class="about-us" id="about-us">

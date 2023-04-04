@@ -1,6 +1,5 @@
 .book-a-table {
     background-color: var(--main-page-background-color);
-    margin-bottom: 50px;
 }
 
 .book-a-table__background {
@@ -232,7 +231,11 @@
 
 @media (max-width: 447px) {
     .book-table__block {
-        width: 80%;
+        width: 90%;
+        margin: auto;
+    }
+    .mask-additional-button__block{
+        margin: auto;
     }
 }
 @media (max-width: 576px) {
