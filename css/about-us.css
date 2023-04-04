@@ -106,7 +106,9 @@
 hr.solid {
   height: 3px;
   background-color: #a55376;
-  width: 10%;
+  width: 30px;
+  border-top: 3px solid #a55376;
+  opacity: 1;
 }
 .cards__title {
   text-align: center;
