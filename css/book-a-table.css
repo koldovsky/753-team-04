@@ -48,6 +48,22 @@
     color: var(--title-color);
     line-height: 3.3rem;
 }
+.block__mask-additional-button__block {
+    width: 160px;
+    height: 50px;
+    background-color: var(--button-additional-color);
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.block__mask-additional-button__block:hover {
+    background-color: var(--button-secondary-hover-bg-color);
+}
 
 .img__learn-more {
     width: 29%;
@@ -234,7 +250,7 @@
         width: 90%;
         margin: auto;
     }
-    .mask-additional-button__block{
+    .block__mask-additional-button__block{
         margin: auto;
     }
 }
