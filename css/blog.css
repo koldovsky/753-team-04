@@ -94,6 +94,9 @@
         column-gap: 32px;
     }
     .blog__article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       height: 482px;
     }
 }
