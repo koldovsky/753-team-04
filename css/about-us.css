@@ -7,6 +7,8 @@
   padding-bottom: 75px;
   padding-top: 60px;
   justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .wave-container-about-us {
@@ -99,23 +101,25 @@
 }
 
 .divider-component {
-  padding-top: 15px;
   padding-bottom: 15px;
 }
 
 hr.solid {
   height: 3px;
   background-color: #a55376;
-  width: 10%;
+  width: 30px;
+  border-top: 3px solid #a55376;
+  opacity: 1;
 }
+
 .cards__title {
   text-align: center;
   font-size: 2.125rem;
-  margin: 10px 0 10px 0;
   font-weight: 400;
   font-family: Dangrek;
   color: rgb(255, 255, 255);
   line-height: 28.8px;
+  margin-top: 20px;
 }
 
 .cards__text {
